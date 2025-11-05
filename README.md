@@ -1,12 +1,24 @@
 # Website for the Critical Edition of the Suśrutasaṃhitā, Nepalese Version
 
-1a. [Ślokasthānam 1-31](https://wujastyk.github.io/Saktumiva2/01-su.su-1-31/provisional-edition_sutrasthana-1-31.xml)
-1b. [Ślokasthānam 1-31](https://wujastyk.github.io/Saktumiva2/01-su.su-1-31/provisional-edition_sutrasthana-1-31.xml)
-2. Nidānasthānam
-3. [Śārīrasthānam](https://wujastyk.github.io/Saktumiva2/03-su.sa/provisional-edition_sarirasthana.xml).
-4a. Cikitsāsthānam
-4b. Cikitsāsthānam
-5. Kalpasthānam
-6a. Uttaratantram
-6b. Uttaratantram
-6c. Uttaratantram
+## Ślokasthānam
+* [Ślokasthānam 1-31](https://wujastyk.github.io/Saktumiva2/01-su.su-1-31/provisional-edition_sutrasthana-1-31.xml)
+* [Ślokasthānam 31-46](https://wujastyk.github.io/Saktumiva2/01-su.su-31-46/provisional-edition_sutrasthana-31-46.xml)
+
+## Nidānasthānam
+* Nidānasthānam
+ 
+## Śārīrasthānam
+* [Śārīrasthānam](https://wujastyk.github.io/Saktumiva2/03-su.sa/provisional-edition_sarirasthana.xml).
+
+## Cikitsāsthānam
+
+* Cikitsāsthānam 1-20
+* Cikitsāsthānam 21-40
+
+## Kalpasthānam
+* Kalpasthānam
+
+## Uttaratantram
+* Uttaratantram 1-30
+* Uttaratantram 31-44
+* Uttaratantram 45-66
