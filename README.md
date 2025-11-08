@@ -1,12 +1,15 @@
 # Website for the Critical Edition of the Suśrutasaṃhitā, Nepalese Version
 
+The following edition files are presented using Saktumiva 2.0, written by Charles Li.  Documentation is available at [Github](https://chchch.github.io/saktumiva/docs/).
+
 ## Ślokasthānam
+
 * [Ślokasthānam  1-31](https://wujastyk.github.io/Saktumiva2/01-su.su-1-31/provisional-edition_sutrasthana-1-31.xml)
 * [Ślokasthānam 32-46](https://wujastyk.github.io/Saktumiva2/01-su.su-32-end/provisional-edition_sutrasthana-32-end.xml)
 
 ## Nidānasthānam
 * [Nidānasthānam](https://wujastyk.github.io/Saktumiva2/02-su.ni/provisional-edition_nidanasthana.xml)
- 
+
 ## Śārīrasthānam
 * [Śārīrasthānam](https://wujastyk.github.io/Saktumiva2/03-su.sa/provisional-edition_sarirasthana.xml).
 
