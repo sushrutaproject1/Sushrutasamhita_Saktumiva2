@@ -14,6 +14,7 @@ The editions and manuscript transcriptions can be viewed at the links below.  Li
 * **N** = MS Kathmandu National Archives 1-1079
 * **H** = MS Kathmandu National Archives 5-333
 * **NE** = New Edition
+* A = Printed edition by Y. T. Ācārya, 1938 ("the vulgate edition")
 
 The following edition files are presented using Saktumiva 2.0, written by Charles Li.  Documentation for Saktumiva 2.0 is available at [Github](https://chchch.github.io/saktumiva/docs/).
 
