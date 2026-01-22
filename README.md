@@ -8,7 +8,7 @@ The editions and manuscript transcriptions can be viewed at the links below.  Li
 
 ## Instructions
 
-“New edition” means that the project has released an edition with full apparatus.  At the present time (2022-2025), the editions of most adhyāyas are provisional: work on proof-reading and edition is still ongoing on a daily basis.  These adhyāyas may be considered to be something like “critical collations” or a  provisional or first draft edition.  You will see the edition in the main window, and the variants from the manuscripts (K, N, H) and the printed edition (A) in the critical apparatus on the right. 
+“New edition” (NE) means that the project has released an edition with full apparatus.  At the present time (2022-2025), the editions of most adhyāyas are provisional: work on proof-reading and edition is still ongoing on a daily basis.  These adhyāyas may be considered to be something like “critical collations” or a  provisional or first draft edition.  You will see the edition in the main window, and the variants from the manuscripts (K, N, H) and the printed edition (A) in the critical apparatus on the right. 
 
 * **K** = MS Kathmandu Kaiser Library 699
 * **N** = MS Kathmandu National Archives 1-1079
@@ -37,15 +37,15 @@ The following edition files are presented using Saktumiva 2.0, written by Charle
 ## Kalpasthānam
 * [Kalpasthānam](https://wujastyk.github.io/Saktumiva2/05-su.ka/provisional-edition_kalpasthana.xml)
 
-## Uttaratantram (currently pointing to Saktumiva 1)
-- Śālākyatantra: [adhyāyas 1-26](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-01-26-salakya/provisional-edition_uttaratantra-01-26)
+## Uttaratantram 
+- Śālākyatantra: [adhyāyas 1-26](https://wujastyk.github.io/Saktumiva2/06-su.ut-01-26-salakya/provisional-edition_uttaratantra-01-26.xml)
 
-- Kumāratantra: [adhyāyas 27-38](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-27-38-kumara/provisional-edition_uttaratantra-27-38)
+- Kumāratantra: [adhyāyas 27-38](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-27-38-kumara/provisional-edition_uttaratantra-27-38) (currently pointing to Saktumiva 1)
 
-- Kāyacikitsātantra: [adhyāyas 39-59](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-39-59-kayacikitsa/provisional-edition_uttaratantra-39-59)
+- Kāyacikitsātantra: [adhyāyas 39-59](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-39-59-kayacikitsa/provisional-edition_uttaratantra-39-59) (currently pointing to Saktumiva 1)
 
-- Bhūtavidyātantra: [adhyāyas 60-62](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-60-62-bhuta/provisional-edition_uttaratantra-60-62)
+- Bhūtavidyātantra: [adhyāyas 60-62](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-60-62-bhuta/provisional-edition_uttaratantra-60-62) (currently pointing to Saktumiva 1)
 
-- Tantrabhūṣaṇādhyāya [adhyāyas 63-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-63-66-tantrabhusana/provisional-edition_uttaratantra-63-66)
+- Tantrabhūṣaṇādhyāya [adhyāyas 63-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-63-66-tantrabhusana/provisional-edition_uttaratantra-63-66) (currently pointing to Saktumiva 1)
 
   
