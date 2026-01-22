@@ -37,7 +37,7 @@ The following edition files are presented using Saktumiva 2.0, written by Charle
 ## Kalpasthānam
 * [Kalpasthānam](https://wujastyk.github.io/Saktumiva2/05-su.ka/provisional-edition_kalpasthana.xml)
 
-## Uttaratantram
+## Uttaratantram (currently pointing to Saktumiva 1)
 - Śālākyatantra: [adhyāyas 1-26](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-01-26-salakya/provisional-edition_uttaratantra-01-26)
 
 - Kumāratantra: [adhyāyas 27-38](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-27-38-kumara/provisional-edition_uttaratantra-27-38)
