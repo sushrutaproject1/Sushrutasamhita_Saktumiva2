@@ -8,7 +8,7 @@ The editions and manuscript transcriptions can be viewed at the links below.  Li
 
 ## Instructions
 
-“New edition” means that the project has released an edition with full apparatus.  At the present time (2022-2025), the editions of most adhyāyas are provisional: work on proof-reading and edition is still ongoing on a daily basis.  These adhyāyas may be considered to be something like “critical collations” or a  provisional or first draft edition.  You will see the edition in the main window, and the variants from the manuscripts (K, N, H) and the printed edition (A) in the critical apparatus on the right. 
+“New edition” (NE) means that the project has released an edition with full apparatus.  At the present time (2022-2025), the editions of most adhyāyas are provisional: work on proof-reading and edition is still ongoing on a daily basis.  These adhyāyas may be considered to be something like “critical collations” or a  provisional or first draft edition.  You will see the edition in the main window, and the variants from the manuscripts (K, N, H) and the printed edition (A) in the critical apparatus on the right. 
 
 * **K** = MS Kathmandu Kaiser Library 699
 * **N** = MS Kathmandu National Archives 1-1079
