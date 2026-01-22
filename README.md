@@ -38,6 +38,14 @@ The following edition files are presented using Saktumiva 2.0, written by Charle
 * [Kalpasthānam](https://wujastyk.github.io/Saktumiva2/05-su.ka/provisional-edition_kalpasthana.xml)
 
 ## Uttaratantram
-* [Uttaratantram 1-30](https://wujastyk.github.io/Saktumiva2/06-su.ut-01-30/provisional-edition_uttaratantra-1-30.xml)
-* [Uttaratantram 31-44](https://wujastyk.github.io/Saktumiva2/06-su.ut-31-44/provisional-edition_uttaratantra-31-44.xml)
-* [Uttaratantram 45-66](https://wujastyk.github.io/Saktumiva2/06-su.ut-45-66/provisional-edition_uttaratantra-45-66.xml)
+- Śālākyatantra: [adhyāyas 1-26](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-01-26-salakya/provisional-edition_uttaratantra-01-26)
+
+- Kumāratantra: [adhyāyas 27-38](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-27-38-kumara/provisional-edition_uttaratantra-27-38)
+
+- Kāyacikitsātantra: [adhyāyas 39-59](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-39-59-kayacikitsa/provisional-edition_uttaratantra-39-59)
+
+- Bhūtavidyātantra: [adhyāyas 60-62](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-60-62-bhuta/provisional-edition_uttaratantra-60-62)
+
+- Tantrabhūṣaṇādhyāya [adhyāyas 63-66](https://saktumiva.org/wiki/wujastyk/susrutasamhita/06-su.ut-63-66-tantrabhusana/provisional-edition_uttaratantra-63-66)
+
+  
