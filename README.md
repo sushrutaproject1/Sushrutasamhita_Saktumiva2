@@ -1,6 +1,6 @@
 This is the website for the online new edition and manuscript transcriptions created as part of the [Sushruta Project](http://sushrutaproject.org).  Here, you may view the evolving critical editions of several parts of the *Suśrutasaṃhitā*.  You can also read the various manuscript transcriptions individually, or collate and compare them in the manner of a critical edition. 
 
-The TEI XML transcriptions of manuscripts and editions are stored at a [Github project repository](https://github.com/wujastyk/sushrutaproject).
+The TEI XML transcriptions of all manuscripts and editions are stored at a [Github project repository](https://github.com/wujastyk/sushrutaproject).
 
 The editions and manuscript transcriptions can be viewed at the links below.  Links are to the IAST script display, but  you can change to Devanagari or several other scripts using the on-screen menu button अ.
 
