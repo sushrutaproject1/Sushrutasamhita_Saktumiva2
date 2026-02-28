@@ -106,7 +106,7 @@
 </witness>
 </listWit>
 </witness>
-<witness xml:id="NE" source="provisional-edition_nidanasthana.xml">
+<witness xml:id="NE" source="provisional-edition_nidanasthana_new.xml">
 <abbr>NE</abbr>
 <expan>The Nepalese Version of the Suśrutasaṃhitā, Nidānasthāna, based on the
                     Nepalese MSS</expan>
@@ -595,7 +595,7 @@
                          kaphānvito bhṛśam vāyus tāsv eva yadi tiṣṭhati |</l>
 
                     <l xml:id="SS.2.1.53ab">
-                        <label xml:lang="en">1938 ed. 2.1.53</label>
+                        <label xml:lang="en">1938 ed. 2.1.53ab</label>
                         <caesura/>
                          sa daṇḍavat stambhayati sa tu daṇḍāpatānakaḥ || </l>
 
@@ -3680,7 +3680,7 @@
                         <caesura/>
                          acchaṃ sphaṭikasaṃkāśaṃ sasrāvaṃ sravato bhṛśaṃ | </l>
 
-                    <l xml:id="SS.2.16.11a">
+                    <l xml:id="SS.2.16.11.add">
                         <label xml:lang="en">1938 ed. 2.16.11a</label>
                         <caesura/>
                          dantacchadāvadīryete poṭyete cāsakṛtpunaḥ ||
@@ -7645,12 +7645,18 @@ SS.2.1.53ab: H doesn't match alignment.
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">surplus</tag>
   </desc>
 </interp><listApp>
+  <app loc="0,3">
+    <lem wit="#H"> iti</lem>
+    <rdg wit="#A">iti suśrutasaṃhitāyāṃ nidānasthāne</rdg>
+    <rdg wit="#N">iti || nidāne || 1 || || ❈ ||</rdg>
+  </app>
   <app loc="3,20">
-    <lem wit="#H">vātavyādhinidānaṃ</lem>
-    <rdg wit="#N">nidāne || 1 || || ❈ ||</rdg>
+    <lem wit="#A #H">vātavyādhinidānaṃ</lem>
+    <rdg wit="#N"/>
   </app>
   <app loc="20,29">
     <lem wit="#H">prathamaḥ</lem>
+    <rdg wit="#A">nāma prathamo 'dhyāyaḥ ||1 ||</rdg>
     <rdg wit="#N"/>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.2.2.1" source="alignments/SS.2.2.1.xml"><interp type="normalization">
@@ -10451,11 +10457,17 @@ SS.2.2.17: H doesn't match alignment.
   </desc>
 </interp><listApp>
   <app loc="0,15">
-    <lem wit="#H">sābhinnamūrttir</lem>
+    <rdgGrp type="lemma" select="#A #H">
+      <lem>sābhinnamūrttir</lem>
+      <rdg type="minor" wit="#A">sā bhinnamūrtir</rdg>
+    </rdgGrp>
     <rdg wit="#N">sā bhinnamū<unclear>rti</unclear></rdg>
   </app>
   <app loc="22,32">
-    <lem wit="#H">śarkkarety</lem>
+    <rdgGrp type="lemma" select="#A #H">
+      <lem>śarkkarety</lem>
+      <rdg type="minor" wit="#A">śarkarety</rdg>
+    </rdgGrp>
     <rdg wit="#N">sa<cb n="2"/><unclear>rka</unclear>rebhy</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.2.3.27cdef" source="alignments/SS.2.3.27cdef.xml"><interp type="normalization">
@@ -26911,7 +26923,6 @@ SS.2.7.24.1: H doesn't match alignment.
   <app loc="0,0">
     <lem/>
     <rdg wit="#A">grathitau ca samākhyātāvoṣṭhau kaṇḍūsamanvitau ||</rdg>
-    <rdg wit="#N">tato vraṇaḥ susaṃruḍho mṛdutvam upagacchati <cb n="3"/> ||</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.2.16.11cd" source="alignments/SS.2.16.11cd.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -26930,17 +26941,25 @@ SS.2.7.24.1: H doesn't match alignment.
 </interp><listApp>
   <app loc="6,22">
     <lem wit="#H">sphaṭikasaṃkāśaṃ</lem>
-    <rdg wit="#N">spha<cb n="2"/>ṭikasaṃkāśa</rdg>
+    <rdgGrp select="#A #N">
+      <rdg type="main">sphaṭikasaṅkāśa</rdg>
+      <rdg type="minor" wit="#N">spha<cb n="2"/>ṭikasaṃkāśa</rdg>
+    </rdgGrp>
   </app>
   <app loc="22,30">
     <lem wit="#H">sasrāvaṃ</lem>
-    <rdg wit="#N">māsrāvaṃ</rdg>
+    <rdg wit="#A #N">māsrāvaṃ</rdg>
   </app>
   <app loc="30,37">
     <lem wit="#H">sravato</lem>
+    <rdg wit="#A">sravayo</rdg>
     <rdg wit="#N">sraṃvato</rdg>
   </app>
-</listApp></standOff><standOff type="apparatus" corresp="#SS.2.16.11a" source="alignments/SS.2.16.11a.xml"><interp type="normalization">
+  <app loc="37,43">
+    <lem wit="#N #H">bhṛśaṃ</lem>
+    <rdg wit="#A">gurū ||</rdg>
+  </app>
+</listApp></standOff><standOff type="apparatus" corresp="#SS.2.16.11.add" source="alignments/SS.2.16.11.add.xml"><interp type="normalization">
   <desc type="tagfilters">
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pc</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">abbr</tag>
@@ -26960,33 +26979,11 @@ SS.2.7.24.1: H doesn't match alignment.
       <lem> dantacchadāvadīryete</lem>
       <rdg type="minor" wit="#H">dantacchadāva<lb n="4"/>dīryete</rdg>
     </rdgGrp>
-    <rdg wit="#N">dantaccha<unclear/>dāva dīryate</rdg>
-  </app>
-  <app loc="41,45">
-    <rdgGrp type="lemma" select="#H">
-      <lem>tato</lem>
-      <rdg type="minor" wit="#H"><caesura/> tato</rdg>
-    </rdgGrp>
-    <rdg wit="#N"/>
-  </app>
-  <app loc="45,51">
-    <lem wit="#H">vraṇaḥ</lem>
-    <rdg wit="#N"/>
+    <rdg wit="#N">dantaccha<unclear/>dāvadīryate</rdg>
   </app>
   <app loc="51,61">
     <lem wit="#H">susaṃrūḍho</lem>
-    <rdg wit="#N"/>
-  </app>
-  <app loc="61,69">
-    <rdgGrp type="lemma" select="#H">
-      <lem>mṛdutvam</lem>
-      <rdg type="minor" wit="#H">mṛdutva<cb/>m</rdg>
-    </rdgGrp>
-    <rdg wit="#N"/>
-  </app>
-  <app loc="69,80">
-    <lem wit="#H">upagacchati</lem>
-    <rdg wit="#N"/>
+    <rdg wit="#N">susaṃruḍho</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.2.16.13" source="alignments/SS.2.16.13.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -27239,12 +27236,7 @@ SS.2.7.24.1: H doesn't match alignment.
 </interp><listApp>
   <app loc="13,23">
     <lem wit="#H">veṣṭabhyas</lem>
-    <rdg wit="#A">veṣṭebhya</rdg>
-    <rdg wit="#N">veṣṭebhyas</rdg>
-  </app>
-  <app loc="23,27">
-    <lem wit="#N #H">tālu</lem>
-    <rdg wit="#A">stālu</rdg>
+    <rdg wit="#A #N">veṣṭebhyas</rdg>
   </app>
   <app loc="31,41">
     <rdgGrp type="lemma" select="#N #H">
