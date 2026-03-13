@@ -36,7 +36,7 @@ The following edition files are presented using Saktumiva 2.0, written by [Dr Ch
 * [Kalpasthānam](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/05-su.ka/provisional-edition_kalpasthana.xml)
 
 ## Uttaratantra
-* [Śālākyatantra: adhyāyas 1-26](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/06-su.ut-01-26-salakya/provisional-edition_uttaratantra-01-26.xml)
-* [Kumāratantra: adhyāyas 27-37](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/06-su.ut-27-37-kumara/provisional-edition_uttaratantra-27-37.xml)
-* [Kāyacikitsātantra: adhyāyas 39-57 (with 24)](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/06-su.ut-39-24-57-kayacikitsa/provisional-edition_uttaratantra-39-24-57.xml)
+* [Śālākyatantram: adhyāyas 1-26](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/06-su.ut-01-26-salakya/provisional-edition_uttaratantra-01-26.xml)
+* [Kumāratantram: adhyāyas 27-37](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/06-su.ut-27-37-kumara/provisional-edition_uttaratantra-27-37.xml)
+* [Kāyacikitsātantram: adhyāyas 39-57 (with 24)](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/06-su.ut-39-24-57-kayacikitsa/provisional-edition_uttaratantra-39-24-57.xml)
 * [Kāyacikitsātantra – Daśaka: adhyāyas 58–66 (with 38)](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/06-su.ut-58-38-66-dasaka/provisional-edition_uttaratantra-58-38-66.xml)
