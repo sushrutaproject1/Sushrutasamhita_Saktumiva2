@@ -2,13 +2,14 @@
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sa-Latn">
   <teiHeader>
 <listWit>
+<witness xml:id="NE" source="provisional-edition_sarirasthana_new.xml">
+<abbr>NE</abbr>
+<expan>The Nepalese Version of the Suśrutasaṃhitā, Śārīrasthāna, based on
+                    the Nepalese MSS, new edition (NE)</expan>
+</witness>
 <witness xml:id="A" source="03-za-vulgate-1938.xml">
 <abbr>A</abbr>
 <expan>Printed edition: Ācārya 1938: Śārīrasthāna</expan>
-</witness>
-<witness xml:id="K" source="kl_699_sarirasthana.xml">
-<abbr>K</abbr>
-<expan>MS Kathmandu KL 699: Śārīrasthāna</expan>
 </witness>
 <witness xml:id="N" source="nak_1-1079_sarirasthana.xml">
 <abbr>N</abbr>
@@ -24,6 +25,10 @@
 </witness>
 </listWit>
 </witness>
+<witness xml:id="K" source="kl_699_sarirasthana.xml">
+<abbr>K</abbr>
+<expan>MS Kathmandu KL 699: Śārīrasthāna</expan>
+</witness>
 <witness xml:id="H" source="nak_5-333_sarirasthana.xml">
 <abbr>H</abbr>
 <expan>MS Kathmandu NAK 5-333: Śārīrasthāna</expan>
@@ -37,11 +42,6 @@
 <expan>MS Kathmandu NAK 5-333: Śārīrasthāna [post correctionem]</expan>
 </witness>
 </listWit>
-</witness>
-<witness xml:id="NE" source="provisional-edition_sarirasthana_new.xml">
-<abbr>NE</abbr>
-<expan>The Nepalese Version of the Suśrutasaṃhitā, Śārīrasthāna, based on
-                    the Nepalese MSS, new edition (NE)</expan>
 </witness>
 </listWit>
     <encodingDesc>
@@ -104,6 +104,7 @@
 <tag subtype="ignore">label</tag>
 <tag subtype="ignore">note</tag>
 <tag subtype="ignore">num</tag>
+<tag subtype="ignore">rt</tag>
 <tag subtype="ignore">locus</tag>
 <tag subtype="ignore">metamark</tag>
 <tag subtype="ignore">supplied</tag>
@@ -112,7 +113,7 @@
       </editorialDecl>
     </encodingDesc>
     <xenoData>
-      <stemma format="nexml" id="stemma0"><nex:nexml xmlns:nex="http://www.nexml.org/2009" version="0.9"><nex:otus id="otus1"><nex:otu id="otu0" label="A"/><nex:otu id="otu1" label="H"/><nex:otu id="otu2" label="NE"/></nex:otus><nex:trees otus="otus1" id="trees1"><nex:tree id="guidetree" label="guidetree" xsi:type="nex:FloatTree" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><nex:node id="3049ab5a-a4f5-43d4-97b7-20b24c2c2594" root="true"/><nex:node id="e03199f3-e2ee-4aa0-9a3b-cf7a6f3e4e64"/><nex:node id="2cbbb992-cd8f-4e33-b3be-a5af9441721f" label="A" otu="otu2"/><nex:node id="ad75d34d-ea66-4aa5-8b55-fd00b7007a67" label="H" otu="otu3"/><nex:node id="70ff88ca-fc28-4c50-a08c-bfa03ada2422" label="NE" otu="otu4"/><nex:edge source="3049ab5a-a4f5-43d4-97b7-20b24c2c2594" target="e03199f3-e2ee-4aa0-9a3b-cf7a6f3e4e64" id="edge0" length="0"/><nex:edge source="3049ab5a-a4f5-43d4-97b7-20b24c2c2594" target="70ff88ca-fc28-4c50-a08c-bfa03ada2422" id="edge1" length="0"/><nex:edge source="e03199f3-e2ee-4aa0-9a3b-cf7a6f3e4e64" target="2cbbb992-cd8f-4e33-b3be-a5af9441721f" id="edge2" length="1"/><nex:edge source="e03199f3-e2ee-4aa0-9a3b-cf7a6f3e4e64" target="ad75d34d-ea66-4aa5-8b55-fd00b7007a67" id="edge3" length="0"/></nex:tree></nex:trees></nex:nexml></stemma>
+      <stemma format="nexml" id="stemma0"><nex:nexml xmlns:nex="http://www.nexml.org/2009" version="0.9"><nex:otus id="otus1"><nex:otu id="otu0" label="A"/><nex:otu id="otu1" label="H"/><nex:otu id="otu2" label="NE"/></nex:otus><nex:trees otus="otus1" id="trees1"><nex:tree id="guidetree" label="guidetree" xsi:type="nex:FloatTree" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><nex:node id="f6895139-0c88-459f-912e-1c6a755eebbf" root="true"/><nex:node id="07e29a09-66a4-4ab9-921b-0351ce055acb"/><nex:node id="add72c67-b90a-4690-875f-930d2913c768" label="A" otu="otu2"/><nex:node id="1dec90e5-11ce-4223-b46c-ac2a380ed100" label="H" otu="otu3"/><nex:node id="97295ef1-b2ed-4b27-82a8-b967b31027e0" label="NE" otu="otu4"/><nex:edge source="f6895139-0c88-459f-912e-1c6a755eebbf" target="07e29a09-66a4-4ab9-921b-0351ce055acb" id="edge0" length="0"/><nex:edge source="f6895139-0c88-459f-912e-1c6a755eebbf" target="97295ef1-b2ed-4b27-82a8-b967b31027e0" id="edge1" length="0"/><nex:edge source="07e29a09-66a4-4ab9-921b-0351ce055acb" target="add72c67-b90a-4690-875f-930d2913c768" id="edge2" length="1"/><nex:edge source="07e29a09-66a4-4ab9-921b-0351ce055acb" target="1dec90e5-11ce-4223-b46c-ac2a380ed100" id="edge3" length="0"/></nex:tree></nex:trees></nex:nexml></stemma>
     </xenoData>
   </teiHeader>
 <TEI n="A"><text><cl><w n="0" lemma="a"> a</w><w n="1">thā</w><w n="2" lemma="taḥ">taḥ </w></cl><cl><w n="3">si</w><w n="4">rā</w><w n="5">va</w><w n="6">rṇa</w><w n="7"/><w n="8">vi</w><w n="9">bha</w><w n="10">kti</w></cl><cl><w n="11">śā</w><w n="12">rī</w><w n="13" lemma="raṃ">raṃ </w></cl><cl><w n="14">vyā</w><w n="15">khyā</w><w n="16">syā</w><w n="17" lemma="maḥ">maḥ || </w></cl></text></TEI><TEI n="H"><text><cl><w n="0">a</w><w n="1">thā</w><w n="2" lemma="taḥ">taḥ </w></cl><cl><w n="3">si</w><w n="4">rā</w><w n="5">va</w><w n="6" lemma="rṇa">rṇṇa</w><w n="7">na</w><w n="8">vi</w><w n="9">bha</w><w n="10" lemma="ktiṃ">ktiṃ </w></cl><cl><w n="11">śā</w><w n="12">rī</w><w n="13" lemma="raṃ">ram </w></cl><cl><w n="14">vyā</w><w n="15">khyā</w><w n="16">syā</w><w n="17" lemma="maḥ">maḥ ||</w></cl></text></TEI><TEI n="NE"><text><cl><w n="0" lemma="a"> a</w><w n="1">thā</w><w n="2" lemma="taḥ">taḥ </w></cl><cl><w n="3">si</w><w n="4">rā</w><w n="5">va</w><w n="6" lemma="rṇa">rṇṇa</w><w n="7">na</w><w n="8">vi</w><w n="9">bha</w><w n="10" lemma="ktiṃ">ktiṃ </w></cl><cl><w n="11">śā</w><w n="12">rī</w><w n="13" lemma="raṃ">ram </w></cl><cl><w n="14">vyā</w><w n="15">khyā</w><w n="16">syā</w><w n="17" lemma="maḥ">maḥ ||</w></cl></text></TEI></teiCorpus>
