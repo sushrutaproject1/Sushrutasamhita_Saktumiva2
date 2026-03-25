@@ -102,11 +102,13 @@
       <change when="2023-01-26" who="Deepro Chakraborty">Added word spacing in 2.12</change>
       <change when="2023-05-09" who="Harshal Bhatt">Added caesuras to 2.14</change>
       <change when="2025-01-15" who="Deepro Chakraborty">added certain xml ids</change>
+      <change when="2026-03-25" who="Dominik Wujastyk">Added facsimile line before end TEI, 
+        pointing to IIIF manifest from archive.org</change>
 
     </revisionDesc>
 
   </teiHeader>
-  <text xml:lang="sa-Latn">
+  <text xml:lang="sa-Latn-t-sa-Deva">
 
     <body>
       <div n="2" type="sthāna">
@@ -114,7 +116,10 @@
         <head>nidānasthānam</head>
 
         <div n="1" type="adhyāya">
-          <head>prathamo 'dhyāyaḥ |</head>
+
+          <pb facs="339" n="255"/>
+
+            <head>prathamo 'dhyāyaḥ |</head>
           <l xml:id="SS.2.1.1"> athāto vātavyādhinidānaṃ vyākhyāsyāmaḥ || </l>
 
 
@@ -2429,4 +2434,8 @@
       </div>
     </body>
   </text>
+
+<facsimile>
+<graphic url="https://wujastyk.github.io/sushrutaproject/trikamji1938_manifest.json"/>
+</facsimile>
 </TEI>
