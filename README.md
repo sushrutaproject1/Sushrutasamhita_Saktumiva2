@@ -2,7 +2,7 @@ This is the website for the online new edition and manuscript transcriptions cre
 
 The TEI XML transcriptions of all manuscripts and editions are stored at a [Github project repository](https://github.com/wujastyk/sushrutaproject).
 
-The editions and manuscript transcriptions can be viewed at the links below.  Links are to the IAST script display, but  you can change to Devanagari or several other scripts using the on-screen menu button अ.
+The editions and manuscript transcriptions can be viewed at the links below.  Links are to the IAST script display, but  you can change to Devanagari by using the on-screen menu button अ.
 
 ## Instructions
 
