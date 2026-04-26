@@ -1,4 +1,4 @@
-This is the website for the online new edition and manuscript transcriptions created as part of the [Sushruta Project](http://sushrutaproject.github.io) **as presented through Saktumiva 2**.  Here, you may view the evolving critical editions of several parts of the *Suśrutasaṃhitā*.  You can also read the various manuscript transcriptions individually, or collate and compare them in the manner of a critical edition. 
+This is the website for the online new edition and manuscript transcriptions created as part of the [Sushruta Project](http://sushrutaproject.github.io) **as presented through Saktumiva 2**.  Here, you may view the evolving critical edition of the *Suśrutasaṃhitā*.  By clicking on the manuscript sigla in the apparatus, you may also read the diplomatic transcriptions of the manuscripts individually together with images of the manuscript folia.
 
 The TEI XML transcriptions of all manuscripts and editions are stored at a [Github project repository](https://github.com/wujastyk/sushrutaproject).
 
