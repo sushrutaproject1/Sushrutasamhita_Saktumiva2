@@ -42,3 +42,6 @@ The following files are complex and will take a moment or two to load and displa
 * [Kumāratantram: adhyāyas 27-37](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/06-su.ut-27-37-kumara/provisional-edition_uttaratantra-27-37.xml)
 * [Kāyacikitsātantram: adhyāyas 39-57 (with 24)](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/06-su.ut-39-24-57-kayacikitsa/provisional-edition_uttaratantra-39-24-57.xml)
 * [Kāyacikitsātantra – Daśaka: adhyāyas 58–66 (with 38)](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/06-su.ut-58-38-66-dasaka/provisional-edition_uttaratantra-58-38-66.xml)
+
+### Citation of this web page
+Dominik Wujastyk and Jegb1972. “sushrutaproject1/Sushrutasamhita_Saktumiva2”. Archived at Zenodo, May 8, 2026. https://doi.org/10.5281/zenodo.20091014.
