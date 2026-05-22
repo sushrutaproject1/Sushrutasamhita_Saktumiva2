@@ -1,32 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sa-Latn-t-sa-Deva">
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sa-Latn-t-sa-Deva">
   <teiHeader>
 <listWit>
 <witness xml:id="NE" source="provisional-edition_sarirasthana_new.xml">
 <abbr>NE</abbr>
 <expan>The Nepalese Version of the Suśrutasaṃhitā, Śārīrasthāna, based on
                     the Nepalese MSS, new edition (NE)</expan>
-</witness>
-<witness xml:id="A" source="03-za-vulgate-1938.xml">
-<abbr>A</abbr>
-<expan>Printed edition: Ācārya 1938: Śārīrasthāna</expan>
-</witness>
-<witness xml:id="K" source="kl_699_sarirasthana.xml">
-<abbr>K</abbr>
-<expan>MS Kathmandu KL 699: Śārīrasthāna</expan>
-</witness>
-<witness xml:id="N" source="nak_1-1079_sarirasthana.xml">
-<abbr>N</abbr>
-<expan>MS Kathmandu NAK 1-1079: Śārīrasthāna</expan>
-<listWit>
-<witness xml:id="Nac" n="ac">
-<abbr>Nac</abbr>
-<expan>MS Kathmandu NAK 1-1079: Śārīrasthāna [ante correctionem]</expan>
-</witness>
-<witness xml:id="Npc" n="pc">
-<abbr>Npc</abbr>
-<expan>MS Kathmandu NAK 1-1079: Śārīrasthāna [post correctionem]</expan>
-</witness>
-</listWit>
 </witness>
 <witness xml:id="H" source="nak_5-333_sarirasthana.xml">
 <abbr>H</abbr>
@@ -42,11 +21,29 @@
 </witness>
 </listWit>
 </witness>
+<witness xml:id="A" source="03-za-vulgate-1938.xml">
+<abbr>A</abbr>
+<expan>Printed edition: Ācārya 1938: Śārīrasthāna</expan>
+</witness>
+<witness xml:id="N" source="nak_1-1079_sarirasthana.xml">
+<abbr>N</abbr>
+<expan>MS Kathmandu NAK 1-1079: Śārīrasthāna</expan>
+<listWit>
+<witness xml:id="Nac" n="ac">
+<abbr>Nac</abbr>
+<expan>MS Kathmandu NAK 1-1079: Śārīrasthāna [ante correctionem]</expan>
+</witness>
+<witness xml:id="Npc" n="pc">
+<abbr>Npc</abbr>
+<expan>MS Kathmandu NAK 1-1079: Śārīrasthāna [post correctionem]</expan>
+</witness>
+</listWit>
+</witness>
 </listWit>
     <encodingDesc>
       <editorialDecl>
         <segmentation>
-          <ab type="tokenization">aksara</ab>
+          <ab type="tokenization">grapheme</ab>
           <ab type="blockid">SS.3.2.2</ab>
           <ab type="targetedition">NE</ab>
           <ab type="scoring">
@@ -113,7 +110,7 @@
       </editorialDecl>
     </encodingDesc>
     <xenoData>
-      <stemma format="nexml" id="stemma0"><nex:nexml xmlns:nex="http://www.nexml.org/2009" version="0.9"><nex:otus id="otus1"><nex:otu id="otu0" label="A"/><nex:otu id="otu1" label="N"/><nex:otu id="otu2" label="NE"/></nex:otus><nex:trees otus="otus1" id="trees1"><nex:tree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="guidetree" label="guidetree" xsi:type="nex:FloatTree"><nex:node id="f46f07bd-2d8e-4551-b4cc-a7c0c02fe85c" root="true"/><nex:node id="6e006278-9d8e-4bc9-bd04-e2946a271768"/><nex:node id="85e2f452-38a1-4286-93bf-10692ffa1007" label="A" otu="otu2"/><nex:node id="ea788ebc-fbc3-4c72-b284-2ce0d17d207c" label="N" otu="otu3"/><nex:node id="595815ca-abdd-425a-9062-b0ea8ec44f21" label="NE" otu="otu4"/><nex:edge source="f46f07bd-2d8e-4551-b4cc-a7c0c02fe85c" target="6e006278-9d8e-4bc9-bd04-e2946a271768" id="edge0" length="0.25"/><nex:edge source="f46f07bd-2d8e-4551-b4cc-a7c0c02fe85c" target="595815ca-abdd-425a-9062-b0ea8ec44f21" id="edge1" length="0.25"/><nex:edge source="6e006278-9d8e-4bc9-bd04-e2946a271768" target="85e2f452-38a1-4286-93bf-10692ffa1007" id="edge2" length="0.5"/><nex:edge source="6e006278-9d8e-4bc9-bd04-e2946a271768" target="ea788ebc-fbc3-4c72-b284-2ce0d17d207c" id="edge3" length="0.5"/></nex:tree></nex:trees></nex:nexml></stemma>
+      <stemma format="nexml" id="stemma0"><nex:nexml xmlns:nex="http://www.nexml.org/2009" version="0.9"><nex:otus id="otus1"><nex:otu id="otu0" label="A"/><nex:otu id="otu1" label="N"/><nex:otu id="otu2" label="NE"/></nex:otus><nex:trees otus="otus1" id="trees1"><nex:tree id="guidetree" label="guidetree" xsi:type="nex:FloatTree" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><nex:node id="a690d322-1f45-4874-ad05-27253e0fac44" root="true"/><nex:node id="740622e7-33ec-4929-8248-80e079501d1c"/><nex:node id="edd89558-1a31-48d4-846a-76abf5fc35dc" label="A" otu="otu2"/><nex:node id="2eb2c5ac-7400-42df-ac34-94b65443da0b" label="N" otu="otu3"/><nex:node id="ef367a45-358f-4d13-9d80-16579474c4ab" label="NE" otu="otu4"/><nex:edge source="a690d322-1f45-4874-ad05-27253e0fac44" target="740622e7-33ec-4929-8248-80e079501d1c" id="edge0" length="0.25"/><nex:edge source="a690d322-1f45-4874-ad05-27253e0fac44" target="ef367a45-358f-4d13-9d80-16579474c4ab" id="edge1" length="0.25"/><nex:edge source="740622e7-33ec-4929-8248-80e079501d1c" target="edd89558-1a31-48d4-846a-76abf5fc35dc" id="edge2" length="0.5"/><nex:edge source="740622e7-33ec-4929-8248-80e079501d1c" target="2eb2c5ac-7400-42df-ac34-94b65443da0b" id="edge3" length="0.5"/></nex:tree></nex:trees></nex:nexml></stemma>
     </xenoData>
   </teiHeader>
 <TEI n="A"><text><cl><w n="0"/><w n="1" lemma="ya"> ya</w><w n="2">tho</w><w n="3">vā</w><w n="4" lemma="ca">ca </w><w n="5">bha</w><w n="6">ga</w><w n="7" lemma="vāṃ">vān </w><w n="8" lemma="dhaṃ">dhan</w><w n="9" lemma="vaṃ">van</w><w n="10">ta</w><w n="11" lemma="riḥ">riḥ || 2 || </w></cl></text></TEI><TEI n="N"><text><cl><w n="0"/><w n="1"/><w n="2"/><w n="3"/><w n="4"/><w n="5"/><w n="6"/><w n="7"/><w n="8"/><w n="9"/><w n="10"/><w n="11"/></cl></text></TEI><TEI n="NE"><text><cl><w n="0"/><w n="1"/><w n="2"/><w n="3"/><w n="4"/><w n="5"/><w n="6"/><w n="7"/><w n="8"/><w n="9"/><w n="10"/><w n="11"/></cl></text></TEI></teiCorpus>
