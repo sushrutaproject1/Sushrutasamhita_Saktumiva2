@@ -111,3 +111,10 @@ Based on witnesses K and H.
 | [❈1](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/05-su.ka/provisional-edition_kalpasthana#SS.5.1.1) | [❈2](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/05-su.ka/provisional-edition_kalpasthana#SS.5.2.1) | [❈3](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/05-su.ka/provisional-edition_kalpasthana#SS.5.3.1) | [❈4](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/05-su.ka/provisional-edition_kalpasthana#SS.5.4.1) |
 | [❈5](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/05-su.ka/provisional-edition_kalpasthana#SS.5.5.1) | [❈6](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/05-su.ka/provisional-edition_kalpasthana#SS.5.7.1) | [❈7](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/05-su.ka/provisional-edition_kalpasthana#SS.5.6.1) | [❈8](https://sushrutaproject1.github.io/Sushrutasamhita_Saktumiva2/05-su.ka/provisional-edition_kalpasthana#SS.5.8.1) |
 
+
+
+### Citation of this website
+
+Wujastyk, Dominik, et al. “The Compendium of Suśruta According to the Nepalese Manuscripts
+A Critical Edition of the Nepalese Version of the Suśrutasaṃhitā, as Presented through Saktumiva 2,” URL:[https://purl.archive.org/purl/sushrutaproject/ed2](https://purl.archive.org/purl/sushrutaproject/ed2).
+
