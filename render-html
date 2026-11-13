@@ -20,13 +20,22 @@ cd "$(dirname "$0")"
 # saktumiva/editmode/editmode.mjs.
 export EDITREDIRECT='<script>(function(){var p=new URLSearchParams(location.search);if(p.get("noedit")!==null)return;var h=location.hostname;if(p.get("edit")!==null||["localhost","[::1]","127.0.0.1","0.0.0.0"].indexOf(h)!==-1)location.replace(location.pathname.replace(/\.html$/,".xml")+location.search+location.hash);})();</script>'
 
-render() {
-    shopt -u patsub_replacement 2>/dev/null || true
-    local xml=$1 sheet dir html out
+# Prints the stylesheet named in the file's <?xml-stylesheet?> line, if it
+# is one this script renders with.
+stylesheet() {
+    local xml=$1 sheet
     [[ -f "$xml" ]] || return 0
     case "$xml" in */alignments/*|lib/*|saktumiva/*|xml/*) return 0 ;; esac
     sheet=$(head -c 2000 "$xml" | grep -o '<?xml-stylesheet[^?]*' | head -1 | sed -n 's/.*href="\([^"]*\)".*/\1/p') || true
-    case "$sheet" in edition.xsl|tei-to-html.xsl) ;; *) return 0 ;; esac
+    case "$sheet" in edition.xsl|tei-to-html.xsl) echo "$sheet" ;; esac
+}
+export -f stylesheet
+
+render() {
+    shopt -u patsub_replacement 2>/dev/null || true
+    local xml=$1 sheet dir html out target t
+    sheet=$(stylesheet "$xml")
+    [[ -n "$sheet" ]] || return 0
     dir=$(dirname "$xml")
     if [[ ! -f "$dir/$sheet" ]]; then
         echo "::warning file=$xml::skipped, there is no $dir/$sheet" >&2
@@ -47,6 +56,21 @@ render() {
     # No <!DOCTYPE>: the browser-side XSLT output is in quirks mode too, and
     # the CSS has always been seen that way.
     printf '%s\n' "$out" > "$html"
+    # Links to other files that get an .html page (e.g. the sigla in the
+    # apparatus, which point to the manuscripts) go to that page. Links to
+    # other XML, like alignments/*.xml, stay as they are.
+    local sedargs=()
+    while IFS= read -r target; do
+        [[ "$target" == *:* || "$target" == /* ]] && continue
+        t=$(realpath -m --relative-to=. "$dir/$target")
+        sheet=$(stylesheet "$t")
+        [[ -n "$sheet" && -f "$(dirname "$t")/$sheet" ]] || continue
+        t=$(printf '%s' "$target" | sed 's/[.[\*^$|]/\\&/g')
+        sedargs+=(-e "s|href=\"$t\([?#\"]\)|href=\"${target%.xml}.html\1|g")
+    done < <(grep -o 'href="[^"?#]*\.xml[?#"]' "$html" | sed 's/^href="//; s/.$//' | sort -u)
+    if [[ ${#sedargs[@]} -gt 0 ]]; then
+        sed -i "${sedargs[@]}" "$html"
+    fi
     echo "$xml -> $html"
 }
 export -f render
