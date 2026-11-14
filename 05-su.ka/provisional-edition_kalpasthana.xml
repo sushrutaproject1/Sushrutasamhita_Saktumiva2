@@ -2,7 +2,10 @@
 <?xml-stylesheet type="text/xsl" href="edition.xsl"?>
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+<script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+
     <teiHeader>
+
         <fileDesc>
             <titleStmt>
                 <title>The Nepalese Version of the Suśrutasaṃhitā, Kalpasthāna, based on
@@ -1240,7 +1243,7 @@
                         <caesura/>
                          bhavet samudhvastaśiroruhāṅgo<anchor xml:id="SS.5.2.28-n1"/>
                         <caesura/>
-                         vilūnapakṣas tu yathā vihaṅgaḥ |</l>
+                         vilūnapakṣas tu yathā vihaṅgaḥ |<anchor xml:id="SS.5.2.28-n2"/></l>
 <trailer xml:lang="en">[cf. 1938 ed. 5.2.28]</trailer>
 </lg>
 
@@ -4480,7 +4483,7 @@
                     <lg xml:id="SS.5.8.27-verse"><l>
                         
                         
-                         ebhir daṣṭasya gurutā gātrāṇām aṅgavedanā |<anchor xml:id="SS.5.8.27-verse-n1"/>
+                         ebhir daṣṭasya gurutā gātrāṇām aṅgavedanā |<anchor xml:id="SS.5.8.27-verse-n1"/><anchor xml:id="SS.5.8.27-verse-n1.5"/>
                         <caesura/>
                          lālāsrāvaś ca bhavati gātrabhedaś ca dāruṇaḥ |<anchor xml:id="SS.5.8.27-verse-n2"/></l>
 <trailer xml:lang="en">[cf. 1938 ed. 5.8.27 verse]</trailer>
@@ -5313,7 +5316,7 @@
                         
                          raktamaṇḍalavaddaṃśe piṭakāḥ sarṣapā iva |
                         <caesura/>
-                         dūyate tāluśoṣaś ca dāhaś cālaviṣānvite |<anchor xml:id="SS.5.8.109-n1"/>
+                         dūyate tāluśoṣaś ca dāhaś cālaviṣānvite |<anchor xml:id="SS.5.8.109-n1"/><anchor xml:id="SS.5.8.109-n2"/>
                     </l>
 <trailer xml:lang="en">[cf. 1938 ed. 5.8.109]</trailer>
 </lg>
@@ -5867,9 +5870,8 @@
                                 form.</note>
 </standOff>
 <standOff corresp="#SS.5.2.28" type="notes3" subtype="Testimonia">
-<note xml:lang="en" target="#SS.5.2.28-n1">Ḍalhaṇa noted the
-                                reading of our manuscripts on 28c (Ācārya 1938:
-                                565).</note>
+<note xml:lang="en" target="#SS.5.2.28-n2">Ḍalhaṇa noted the
+                                reading of our manuscripts on 28c (Ācārya 1938: 565).</note>
 </standOff>
 <standOff corresp="#SS.5.2.36" type="notes1" subtype="Notes">
 <note xml:lang="en" target="#SS.5.2.36-n1">The character
@@ -6292,7 +6294,7 @@
                                     <foreign>daṣṭasya</foreign> has been adopted.</note>
 </standOff>
 <standOff corresp="#SS.5.8.27-verse" type="notes2" subtype="Emendation">
-<note xml:lang="en" target="#SS.5.8.27-verse-n1">Note that
+<note xml:lang="en" target="#SS.5.8.27-verse-n1.5">Note that
                                 witness H has a marginal insertion altering the text of K
                                 to read instead <foreign>daṃśavedanā</foreign>with the
                                 vulgate.</note>
@@ -6426,7 +6428,7 @@
                                 the vowel length. </note>
 </standOff>
 <standOff corresp="#SS.5.8.109" type="notes1" subtype="Notes">
-<note xml:lang="en" target="#SS.5.8.109-n1">Witness H omits
+<note xml:lang="en" target="#SS.5.8.109-n2">Witness H omits
                                 the second half of this stanza,
                                     <foreign>dūyate...cālaviṣānvite</foreign>; probably a
                                 saut du même au même from <foreign>iva</foreign> to
