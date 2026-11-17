@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="edition.xsl"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" 
+  type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
-    <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>The Nepalese Version of the Suśrutasaṃhitā: Uttaratantra, the final
@@ -140,7 +141,7 @@
 
         </fileDesc>
 <xenoData>
-    <stemma format="nexml">
+   <stemma xmlns="https://sushrutaproject.github.io" format="nexml">
 <nex:nexml generator="SplitsTree6" version="0.9" xmlns:nex="http://www.nexml.org/2009" xmlns="http://www.nexml.org/2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sp5="https://github.com/danielhuson/splitstree6">
 
 	<otus id="otus1" label="TaxaBlock">
@@ -1061,8 +1062,7 @@
                             <caesura/>
                              arśāṃsi gulmaṃ pravaraṃ prabhūtāṃ
                             <caesura/>
-                             prāpnoti rogān vividhāṃs tathānyān ||[<anchor
-                                xml:id="SS.6.38.4.add-n1"/>] </l>
+                             prāpnoti rogān vividhāṃs tathānyān ||<anchor xml:id="SS.6.38.4.add-n1"/><anchor xml:id="SS.6.38.4.add-n2"/> </l>
                         <trailer xml:lang="en">[6.38.4.add]</trailer>
                     </lg>
 
@@ -1161,7 +1161,8 @@
 
                     <lg xml:id="SS.6.38.12">
                         <l> sadāhaṃ kṣīyate raktaṃ yasyāḥ sā lohitakṣayā |<anchor
-                                xml:id="SS.6.38.12-n1"/>
+                                xml:id="SS.6.38.12-n1"/><anchor
+                                xml:id="SS.6.38.12-n2"/>
                             <caesura/>
                              srutāv apy udgired bījaṃ vāminī rajasā plutā |</l>
                         <trailer xml:lang="en">[cf. 1938 ed. 6.38.12]</trailer>
@@ -1172,7 +1173,8 @@
 
                     <lg xml:id="SS.6.38.13">
                         <l> prasraṃsanī saṃsraṃsate kṣobhitā duḥprajāyinī<anchor
-                                xml:id="SS.6.38.13-n1"/> |
+                                xml:id="SS.6.38.13-n1"/><anchor
+                                xml:id="SS.6.38.13-n2"/> |
                             <caesura/>
                              sthitaṃ sthitaṃ hanti garbhaṃ putraghnī raktavisravaiḥ |</l>
                         <trailer xml:lang="en">[cf. 1938 ed. 6.38.13]</trailer>
@@ -2776,18 +2778,13 @@
 
                     <lg xml:id="SS.6.64.17ab">
                         <l> varṣāsu sañcitam pittaṃ nirharec ca virecanaiḥ | </l>
-                        <trailer xml:lang="en">[cf. 1938 ed. 6.64.17ab]</trailer>
-                    
-
-                    
+                     
                         <l/>
-                    
-
-                    
+                                      
                         <l>
                             <!--  <label xml:lang="en">cf. 1938 ed. 6.64.17a</label>-->
-                            <caesura/>
-                             tiktasarpiḥprayogair vā sirāṇāñ cāpi mokṣaṇaiḥ ||22|| </l>
+                                                       tiktasarpiḥprayogair vā sirāṇāñ cāpi mokṣaṇaiḥ ||22|| </l>
+                                <trailer xml:lang="en">[first pāda, cf. 1938 ed. 6.64.17ab]</trailer>
                     </lg>
 
                     <lg xml:id="SS.6.64.18ab">
@@ -2934,14 +2931,12 @@
 
                     
                         <l> eṣa eva vidhiḥ kāryaḥ śiśire samudāhṛtaḥ | </l>
-                        <trailer xml:lang="en">[cf. 1938 ed. 6.64.31cd]</trailer>
-                    
-
-                    
+                        
                         <l>
                             <!--  <label xml:lang="en">6.64.31.add1</label>-->
                            
                              hemantaśeṣaḥ śiśiraḥ ke cid icchanti vaidyakāḥ ||33|| </l>
+                             <trailer xml:lang="en">[first pāda, cf. 1938 ed. 6.64.31cd]</trailer>
                     </lg>
                     <lg xml:id="SS.6.64.31.add2">
                         <l>
@@ -3040,18 +3035,12 @@
 
                     
                         <l> yavamudgamadhuprāyaṃ vasante bhojanaṃ hitam | </l>
-                        <trailer xml:lang="en">[cf. 1938 ed. 6.64.37cd]</trailer>
-                    
-
-                    
+                        
                         <l/>
-                    
-
-                    
                         <l>
                             <caesura/>
                              vyāyāmo dvyadhikaś cātra sarva eva praśasyate<anchor xml:id="SS.6.64.38.add-n1"/>   ||44||</l>
-                    </lg>
+                    <trailer xml:lang="en">[first pāda, cf. 1938 ed. 6.64.37cd]</trailer></lg>
 
                     <lg xml:id="SS.6.64.39cd">
                         <l> śirovirekair vamanaiḥ kaṣāyaiḥ kavaḍagrahaiḥ | </l>
@@ -3089,12 +3078,12 @@
                     </lg>
                     <lg xml:id="SS.6.64.39.add5">
                         <l>
-                            <caesura/>
+                           
                              tataś candrakarālokān pradoṣaṃ satsuhṛjjanaḥ | </l>
                     
                     
                         <l>
-                            <caesura/>
+                           
                              saṃseved athavāliṅgya svapet kāntāṅ gṛhodare ||48|| </l>
                     </lg>
                     <lg xml:id="SS.6.64.39.add7">
@@ -4285,10 +4274,11 @@
                             <caesura/>
                              saṃsāre sāgare 'smiñ jagad idam akhilaṃ glāninam sampravīkṣya
                             <caesura/>
-                             tasmāc chrīharṣacandro niratiśayaghṛṇābhāvito moktukāmaḥ
+                             tasmāc chrīharṣacandro niratiśayaghṛṇābhāvito moktukāmaḥ<anchor
+                                xml:id="SS.6.66.colophon2-n1"/>
                             <caesura/>
                              prītyā caigaṃ <sic>prākhilat</sic> suśrutākhyam |<anchor
-                                xml:id="SS.6.66.colophon2-n1"/>
+                                xml:id="SS.6.66.colophon2-n2"/>
                         </l>
                         <trailer xml:lang="en">[6.66.colophon2]</trailer>
                     </lg>
@@ -4366,7 +4356,7 @@
                 sadāhaṃ kṣīyate raktaṃ yasyāṃ sā lohitākṣayā</foreign></note>
     </standOff>
     <standOff corresp="#SS.6.38.12" type="notes3" subtype="Testimonia">
-        <note xml:lang="en" target="#SS.6.38.12-n1">Dalhaṇa to Ut.38.12: <foreign>
+        <note xml:lang="en" target="#SS.6.38.12-n2">Dalhaṇa to Ut.38.12: <foreign>
                 `sadāhaṃ kṣīyate raktaṃ yasyāṃ sā lohitākṣayā' iti kecit paṭhanti
                 |</foreign></note>
     </standOff>
@@ -4376,7 +4366,7 @@
                 paṭhanti, duṣṭībhūtāpatyamārgeti vyākhyānayanti|</foreign></note>
     </standOff>
     <standOff corresp="#SS.6.38.13" type="notes3" subtype="Testimonia">
-        <note xml:lang="en" target="#SS.6.38.13-n1"><emph>Mādhavanidāna</emph> 64.6ab:
+        <note xml:lang="en" target="#SS.6.38.13-n2"><emph>Mādhavanidāna</emph> 64.6ab:
                 <foreign>prasraṃsinī sraṃsate ca kṣobhitā duṣprajāyinī</foreign>
         </note>
     </standOff>
@@ -4598,8 +4588,14 @@
             clearly calls this the end of chapter 64, not 66. Cf. the Nepalese reading of
             6.66.15, which also refers to 64 chapters.</note>
     </standOff>
-    <standOff corresp="#SS.6.66.colophon2" type="notes1" subtype="Notes">
-        <note xml:lang="en" target="#SS.6.66.colophon2-n1">It is hard to understand how a
+       <standOff corresp="#SS.6.66.colophon2" type="notes1" subtype="Notes">
+        <note xml:lang="en" target="#SS.6.66.colophon2-n1">We read <foreign>-harṣacandro</foreign> which could be the name of the
+            scribe. But the following <foreign>nnirati-</foreign> is hard to construe. If
+            we read the ablative <foreign>-harṣacandrān</foreign>, it solves the problem
+            of <foreign>-nn-</foreign> but is also hard to construe.</note>
+    </standOff>
+ <standOff corresp="#SS.6.66.colophon2" type="notes1" subtype="Notes">
+        <note xml:lang="en" target="#SS.6.66.colophon2-n2">It is hard to understand how a
             word ending in <foreign>-gaṃ</foreign>, or any accusative, could precede
                 <foreign>prākhilat</foreign> or even <foreign>pra akhilan</foreign>. Some
             readers have emended <foreign xml:lang="sa">prākhilat</foreign> to <foreign
@@ -4608,14 +4604,7 @@
             scribe, which is generally very accurate, so we consider the emendation
             unlikely. With so many words missing from this passage, we consider that
             emendation is not useful.</note>
-    </standOff>
-    <standOff corresp="#SS.6.66.colophon2" type="notes1" subtype="Notes">
-        <note>We read <foreign>-harṣacandro</foreign> which could be the name of the
-            scribe. But the following <foreign>nnirati-</foreign> is hard to construe. If
-            we read the ablative <foreign>-harṣacandrān</foreign>, it solves the problem
-            of <foreign>-nn-</foreign> but is also hard to construe.</note>
-    </standOff>
-<standOff corresp="#SS.6.38.4.add" type="notes1" subtype="Note">
+    </standOff><standOff corresp="#SS.6.38.4.add" type="notes1" subtype="Note">
 <note xml:lang="en" target="#SS.6.38.4.add-n1">The following are testimonia to the
                                 vulgate verses below that are missing in the Nepalese
                                 transmission.
@@ -4625,7 +4614,7 @@
                                     jāyante bījadoṣāc ca daivāc ca śṛṇu tāḥ pṛthak
                                     ||</foreign>
                             </note>
-<note xml:lang="en" target="#SS.6.38.4.add-n1">
+<note xml:lang="en" target="#SS.6.38.4.add-n2">
                                 <emph>Mādhavanidāna</emph> 62.1-2ab: <foreign>viṃśatir
                                     vyāpado yonau nirdiṣṭā rogasaṅgrahe | mithyācāreṇa tāḥ
                                     strīṇāṃ praduṣṭenārtavena ca || jāyante bījadoṣāc ca
@@ -4949,6 +4938,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -5096,6 +5086,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -5203,6 +5194,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -5454,6 +5446,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -5837,6 +5830,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -6006,6 +6000,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -6340,6 +6335,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -6589,6 +6585,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -7560,6 +7557,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -7761,6 +7759,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -8336,6 +8335,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -8474,6 +8474,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -8537,6 +8538,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -9344,6 +9346,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -9634,6 +9637,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -9646,10 +9650,6 @@
     </rdgGrp>
     <rdg wit="#H"/>
   </app>
-  <app loc="37,44">
-    <lem wit="#K">gṛhṇāti</lem>
-    <rdg wit="#H"> gṛhṇāti <gap n="3" unit="char" quantity="1"/></rdg>
-  </app>
   <app loc="94,99">
     <rdgGrp type="lemma" select="#H">
       <lem>rogān</lem>
@@ -9657,11 +9657,8 @@
     </rdgGrp>
     <rdg wit="#K">rogāṃ</rdg>
   </app>
-  <app loc="108,121">
-    <rdgGrp type="lemma" select="#H">
-      <lem>tathānyān ||[]</lem>
-      <rdg type="minor" wit="#H">tathānyān</rdg>
-    </rdgGrp>
+  <app loc="108,117">
+    <lem wit="#H">tathānyān</lem>
     <rdg wit="#K">tathānyāṃ</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.38.5" source="alignments/SS.6.38.5.xml"><interp type="normalization">
@@ -9714,6 +9711,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -10160,6 +10158,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -10864,6 +10863,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -11161,6 +11161,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -11230,6 +11231,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -11256,7 +11258,7 @@
       <rdg type="minor" wit="#K"><caesura/> kriyā <unclear>ś </unclear></rdg>
     </rdgGrp>
     <rdg wit="#A"> kriyā</rdg>
-    <rdg wit="#H"><gap extent="4" unit="char" quantity="1"/> |  <gap extent="4" unit="char" quantity="1"/><gap extent="2" unit="char" quantity="1"/></rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="46,54">
     <rdgGrp type="lemma" select="#K">
@@ -11271,7 +11273,10 @@
       <lem>yasmiṃ</lem>
       <rdg type="minor" wit="#K">yasmi<unclear>ṃ</unclear></rdg>
     </rdgGrp>
-    <rdg wit="#A #H">yasmin</rdg>
+    <rdgGrp select="#A #H">
+      <rdg type="main">yasmin</rdg>
+      <rdg type="minor" wit="#H"><caesura/> <gap extent="4" unit="char" quantity="1"/><cb/><gap extent="2" unit="char" quantity="1"/> yasmin</rdg>
+    </rdgGrp>
   </app>
   <app loc="68,80">
     <lem>parikīrttitā</lem>
@@ -11300,18 +11305,21 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
 </interp>
 <listApp>
   <app loc="0,25">
-    <lem> aśucibhinnamayādakṣata taṃ</lem>
+    <rdgGrp type="lemma" select="#K">
+      <lem> aśucibhinnamayādakṣata taṃ</lem>
+      <rdg type="minor" wit="#K">aśu<unclear reason="torn">cibhinna</unclear>mayādakṣata<unclear extent="3" reason="illegible" unit="char"/><gap extent="2" reason="torn" unit="char" quantity="1"/> <lb n="2"/>taṃ</rdg>
+    </rdgGrp>
     <rdgGrp select="#A #H">
       <rdg type="main">aśuciṃ bhinnamaryādaṃ kṣataṃ vā yadi vākṣatam</rdg>
       <rdg type="minor" wit="#H">aśuciṃ bhinnamaryādaṃ kṣatam vā yadi vākṣataṃ</rdg>
     </rdgGrp>
-    <rdg wit="#K">aśu<unclear reason="torn">cibhinna</unclear>mayādakṣata<gap extent="2" reason="torn" unit="char" quantity="1"/> taṃ</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.60.6" source="alignments/SS.6.60.6.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -11387,6 +11395,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -11426,7 +11435,7 @@
       <rdg type="minor" wit="#K">piśāca<unclear>hā</unclear>ti<cb/>reṣoṣṭako</rdg>
     </rdgGrp>
     <rdg wit="#A">piśācajātireṣo 'ṣṭako</rdg>
-    <rdg wit="#H"><gap reason="omitted" extent="5" unit="char" quantity="1"/>cajātireṣo 'ṣṭako</rdg>
+    <rdg wit="#H">cajātireṣo 'ṣṭako</rdg>
   </app>
   <app loc="91,101">
     <lem wit="#K">devagaṇyai</lem>
@@ -11617,6 +11626,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -11819,6 +11829,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -12005,6 +12016,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -12029,15 +12041,12 @@
       <rdg type="minor" wit="#H">caturddaśyām</rdg>
     </rdgGrp>
   </app>
-  <app loc="73,80">
-    <lem>viśaṃti</lem>
-    <rdg wit="#A">viśanti ca</rdg>
-    <rdg wit="#K">viśaṃ<gap extent="1" reason="deleted" unit="char" quantity="1"/>ti</rdg>
-    <rdg wit="#H"><unclear>vi</unclear>śanti hi</rdg>
-  </app>
   <app loc="80,82">
-    <lem wit="#K">hi</lem>
-    <rdg wit="#A #H"/>
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>hi</lem>
+      <rdg type="minor" wit="#H">hi<cb/></rdg>
+    </rdgGrp>
+    <rdg wit="#A">ca</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.60.19" source="alignments/SS.6.60.19.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -12189,6 +12198,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -12196,7 +12206,7 @@
 <listApp>
   <app loc="17,31">
     <lem wit="#A #K">saṃviśanti na vā</lem>
-    <rdg wit="#H">saṃviśanti</rdg>
+    <rdg wit="#H">saṃ</rdg>
   </app>
   <app loc="31,39">
     <lem wit="#K">manuṣyāṃ</lem>
@@ -12209,7 +12219,7 @@
       <rdg type="minor" wit="#A">kvacidāviśanti | <caesura/> ye</rdg>
       <rdg type="minor" wit="#K">kvacidāviśanti | <cb/> <caesura/> ye</rdg>
     </rdgGrp>
-    <rdg wit="#H"><gap reason="omitted" unit="pāda" quantity="1"/> |  ye</rdg>
+    <rdg wit="#H">viśanti  |  ye</rdg>
   </app>
   <app loc="56,68">
     <rdgGrp type="lemma" select="#A #K">
@@ -12231,7 +12241,7 @@
       <rdg type="minor" wit="#K"><unclear>bhū</unclear>tasargād</rdg>
     </rdgGrp>
     <rdg wit="#A">bhūtavidyā</rdg>
-    <rdg wit="#H">bhū<gap reason="omitted" extent="3" unit="char" quantity="1"/>d</rdg>
+    <rdg wit="#H">bhūd</rdg>
   </app>
   <app loc="94,109">
     <rdgGrp type="lemma" select="#Kpc">
@@ -12359,6 +12369,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -12380,15 +12391,12 @@
   </app>
   <app loc="49,59">
     <lem wit="#A #K">namasyante</lem>
-    <rdg wit="#H">namasyā<gap reason="omitted" extent="1" unit="char" quantity="1"/></rdg>
+    <rdg wit="#H">namasyā</rdg>
   </app>
   <app loc="59,73">
     <lem wit="#K">pravarttante ca</lem>
     <rdg wit="#A">pratyarthyante ca</rdg>
-    <rdg wit="#H">
-      <gap reason="omitted" extent="1" unit="char" quantity="1"/>
-      <gap reason="omitted" extent="1" unit="pāda" quantity="1"/>
-    </rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="73,80">
     <lem wit="#A #K">devavat</lem>
@@ -12571,6 +12579,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -12598,12 +12607,12 @@
     <rdg wit="#H"/>
   </app>
   <app loc="42,47">
-    <rdgGrp type="lemma" select="#A #Kpc">
+    <rdgGrp type="lemma" select="#A #Kpc #H">
       <lem>teṣāṃ</lem>
       <rdg type="minor" wit="#A #Kpc"><caesura/> teṣāṃ</rdg>
+      <rdg type="minor" wit="#H"><gap reason="omitted" extent="half" unit="verse" quantity="1"/> <caesura/> teṣāṃ</rdg>
     </rdgGrp>
     <rdg wit="#Kac"> teāṣāṃ</rdg>
-    <rdg wit="#H"><gap reason="omitted" extent="half" unit="verse" quantity="1"/>  teṣāṃ</rdg>
   </app>
   <app loc="47,66">
     <lem>śānty atham anvicchan</lem>
@@ -12725,6 +12734,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -12748,7 +12758,7 @@
   </app>
   <app loc="28,38">
     <lem wit="#A #K">pradāpayet</lem>
-    <rdg wit="#H"><gap reason="omitted" extent="7" unit="char" quantity="1"/> dāpayet</rdg>
+    <rdg wit="#H">dāpayet</rdg>
   </app>
   <app loc="47,54">
     <lem wit="#K">manujāṃ</lem>
@@ -12774,6 +12784,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -12961,6 +12972,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -13312,6 +13324,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -13453,6 +13466,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -13464,9 +13478,11 @@
     <rdg wit="#H">pūrvvavannayanāñjane</rdg>
   </app>
   <app loc="40,45">
-    <lem>vacām</lem>
+    <rdgGrp type="lemma" select="#K">
+      <lem>vacām</lem>
+      <rdg type="minor" wit="#K"><caesura/> <gap extent="12" reason="damaged" unit="char" quantity="1"/><pb facs="257" n="203v"/><lb n="1"/>vacām</rdg>
+    </rdgGrp>
     <rdg wit="#A"> saindhavaṃ kaṭukāṃ hiṅguṃ vayaḥsthāṃ ca vacām</rdg>
-    <rdg wit="#K"><gap extent="12" reason="damaged" unit="char" quantity="1"/>vacām</rdg>
     <rdg wit="#H"> saindhavaṃ kaṭukāṃ hiṅgu vayaḥsthā ca vacām</rdg>
   </app>
   <app loc="61,69">
@@ -13666,6 +13682,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -13696,9 +13713,11 @@
     <rdg wit="#H">kīrttitaṃ ||   siṃhavyāghra</rdg>
   </app>
   <app loc="21,43">
-    <lem>mārjāradvīpavājigajāṃs</lem>
+    <rdgGrp type="lemma" select="#K">
+      <lem>mārjāradvīpavājigajāṃs</lem>
+      <rdg type="minor" wit="#K"><caesura/> <gap extent="6" reason="damaged" unit="char" quantity="1"/><lb n="2"/>mārjāradvīpavājigajā<unclear>ṃ</unclear>s</rdg>
+    </rdgGrp>
     <rdg wit="#A">rkṣamārjāradvīpivājigavāṃ</rdg>
-    <rdg wit="#K"><gap extent="6" reason="damaged" unit="char" quantity="1"/>mārjāradvīpavājigajā<unclear>ṃ</unclear>s</rdg>
     <rdg wit="#H">rkṣamārjjāradvīpivājigajāṃs</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.60.50" source="alignments/SS.6.60.50.xml"><interp type="normalization">
@@ -13812,6 +13831,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -13852,6 +13872,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -13862,9 +13883,11 @@
     <rdg wit="#A">uddhūlane</rdg>
   </app>
   <app loc="9,16">
-    <lem>ślaṣṭaṃ</lem>
+    <rdgGrp type="lemma" select="#K">
+      <lem>ślaṣṭaṃ</lem>
+      <rdg type="minor" wit="#K">śla<gap extent="2" reason="damaged" unit="char" quantity="1"/>ṣṭaṃ</rdg>
+    </rdgGrp>
     <rdg wit="#A #H">ślakṣṇapiṣṭaṃ</rdg>
-    <rdg wit="#K">śla<gap extent="2" reason="damaged" unit="char" quantity="1"/>ṣṭaṃ</rdg>
   </app>
   <app loc="53,70">
     <lem wit="#K #H">mānasānavicāritaḥ</lem>
@@ -14166,6 +14189,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -14405,6 +14429,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -14430,12 +14455,13 @@
   </app>
   <app loc="23,33">
     <lem wit="#A #K">vivṛtākṣaḥ</lem>
-    <rdg wit="#H">
-      <gap reason="omitted" extent="12" unit="char" quantity="1"/>
-    </rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="33,38">
-    <lem wit="#K #H">patat</lem>
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>patat</lem>
+      <rdg type="minor" wit="#H"><gap reason="omitted" extent="12" unit="char" quantity="1"/> patat</rdg>
+    </rdgGrp>
     <rdg wit="#A">patet</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.61.10ab" source="alignments/SS.6.61.10ab.xml"><interp type="normalization">
@@ -14837,6 +14863,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -14862,7 +14889,7 @@
   <app loc="33,40">
     <lem wit="#K">dūṣaṇaṃ</lem>
     <rdg wit="#A">doṣajam</rdg>
-    <rdg wit="#H">dū</rdg>
+    <rdg wit="#H">dū </rdg>
   </app>
   <app loc="41,53">
     <rdgGrp type="lemma" select="#A #K">
@@ -14877,7 +14904,7 @@
       <rdg type="minor" wit="#K">doṣā<cb/>ṇyaṃ</rdg>
     </rdgGrp>
     <rdg wit="#A">doṣāṇāṃ</rdg>
-    <rdg wit="#H"><gap reason="omitted" extent="2" unit="char" quantity="1"/> |  <gap reason="omitted" extent="3" unit="char" quantity="1"/><gap reason="ommitted" extent="5" unit="char" quantity="1"/></rdg>
+    <rdg wit="#H"/>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.61.19" source="alignments/SS.6.61.19.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -14978,6 +15005,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -15002,11 +15030,11 @@
       <lem>apasmāro</lem>
       <rdg type="minor" wit="#A #K"><caesura/> apasmāro</rdg>
     </rdgGrp>
-    <rdg wit="#H"> apasmā<gap reason="omitted" extent="3" unit="char" quantity="1"/></rdg>
+    <rdg wit="#H"> apasmā</rdg>
   </app>
   <app loc="50,67">
     <lem wit="#A #K">mahāvyādhistasmād</lem>
-    <rdg wit="#H"><gap reason="omitted" extent="3" unit="char" quantity="1"/>vyādhistasmād</rdg>
+    <rdg wit="#H">vyādhistasmād</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.61.22" source="alignments/SS.6.61.22.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -15196,6 +15224,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -15220,7 +15249,7 @@
   <app loc="59,78">
     <lem wit="#K">vṛṣabharkṣagavān api</lem>
     <rdg wit="#A">pṛṣatarkṣagavām api</rdg>
-    <rdg wit="#H">vṛṣabhakṣa<gap reason="omitted" extent="2" unit="char" quantity="1"/>rapi</rdg>
+    <rdg wit="#H">vṛṣabhakṣarapi</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.61.25" source="alignments/SS.6.61.25.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -16246,6 +16275,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -16261,7 +16291,7 @@
   </app>
   <app loc="26,40">
     <lem wit="#A #K">cakragatasya vā</lem>
-    <rdg wit="#H">masya <gap reason="omitted" extent="2" unit="char" quantity="1"/> tasya vā</rdg>
+    <rdg wit="#H">masya  tasya vā</rdg>
   </app>
   <app loc="46,50">
     <lem wit="#K #H">syur</lem>
@@ -16646,6 +16676,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -16672,7 +16703,10 @@
       <lem>rodati</lem>
       <rdg type="minor" wit="#K">roda<cb/>ti</rdg>
     </rdgGrp>
-    <rdg wit="#A #H">roditi</rdg>
+    <rdgGrp select="#A #H">
+      <rdg type="main">roditi</rdg>
+      <rdg type="minor" wit="#H">roditi <gap reason="omitted" extent="4" unit="char" quantity="1"/></rdg>
+    </rdgGrp>
   </app>
   <app loc="56,60">
     <lem wit="#K">cāpi</lem>
@@ -16695,7 +16729,7 @@
   <app loc="78,95">
     <lem wit="#K">hatabalendriyavāk</lem>
     <rdg wit="#A">hatabalendriyabhāḥ</rdg>
-    <rdg wit="#H"><gap reason="omitted" extent="4" unit="char" quantity="1"/> |   <gap extent="9" unit="char" quantity="1"/>yavā<unclear>k </unclear></rdg>
+    <rdg wit="#H"> yavā<unclear>k </unclear></rdg>
   </app>
   <app loc="102,111">
     <lem wit="#K #H">śyāmānano</lem>
@@ -16870,6 +16904,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -16896,7 +16931,7 @@
       <rdg type="minor" wit="#K"><caesura/> sarṣapānyañ ca</rdg>
     </rdgGrp>
     <rdg wit="#A"> sarṣapānāṃ ca</rdg>
-    <rdg wit="#H">mā</rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="57,64">
     <lem wit="#A #K">tailena</lem>
@@ -16908,7 +16943,7 @@
       <rdg type="minor" wit="#K">nasyābhya<cb/><unclear>ṅgai</unclear></rdg>
     </rdgGrp>
     <rdg wit="#A">nasyābhyaṅgau</rdg>
-    <rdg wit="#H"><gap reason="omitted" extent="5" unit="char" quantity="1"/> |  <gap reason="omitted" extent="10" unit="char" quantity="1"/>bhyaṅgo</rdg>
+    <rdg wit="#H">mā |  bhyaṅgo</rdg>
   </app>
   <app loc="77,82">
     <rdgGrp type="lemma" select="#K #H">
@@ -17007,19 +17042,19 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
 </interp>
 <listApp>
   <app loc="0,8">
-    <lem> trāsayed</lem>
-    <rdg wit="#A">yantrayitvā suguptaṃ vā trāsayet</rdg>
-    <rdgGrp select="#K #H">
-      <rdg type="main"> trāsayed</rdg>
+    <rdgGrp type="lemma" select="#K #H">
+      <lem> trāsayed</lem>
       <rdg type="minor" wit="#K"><gap extent="1" reason="omitted" unit="pāda" quantity="1"/> trāsayed</rdg>
       <rdg type="minor" wit="#H"><gap reason="omitted" extent="1" unit="pāda" quantity="1"/> trāsayed</rdg>
     </rdgGrp>
+    <rdg wit="#A">yantrayitvā suguptaṃ vā trāsayet</rdg>
   </app>
   <app loc="8,19">
     <rdgGrp type="lemma" select="#K">
@@ -17118,15 +17153,18 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
 </interp>
 <listApp>
   <app loc="0,16">
-    <lem> stambhāvabaddhaṃ</lem>
+    <rdgGrp type="lemma" select="#K #H">
+      <lem> stambhāvabaddhaṃ</lem>
+      <rdg type="minor" wit="#K #H"><gap n="1" unit="pāda" quantity="1"/> stambhāvabaddhaṃ</rdg>
+    </rdgGrp>
     <rdg wit="#A">bhīṣayet saṃ</rdg>
-    <rdg wit="#K #H"><gap n="1" unit="pāda" quantity="1"/> stambhāvabaddhaṃ</rdg>
   </app>
   <app loc="16,25">
     <lem wit="#K #H">yaṣṭībhiḥ</lem>
@@ -17219,6 +17257,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -17230,9 +17269,7 @@
   </app>
   <app loc="13,19">
     <lem wit="#A #K">cainaṃ</lem>
-    <rdg wit="#H">
-      <gap reason="omitted" extent="1" unit="pāda" quantity="1"/>
-    </rdg>
+    <rdg wit="#H"/>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.62.19gh" source="alignments/SS.6.62.19gh.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -18053,6 +18090,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -18203,6 +18241,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -18217,7 +18256,7 @@
   </app>
   <app loc="19,30">
     <lem wit="#A #K">bhidyante te</lem>
-    <rdg wit="#H">bhidyante<gap reason="omitted" extent="1" unit="char" quantity="1"/></rdg>
+    <rdg wit="#H">bhidyante</rdg>
   </app>
   <app loc="42,63">
     <rdgGrp type="lemma" select="#K #H">
@@ -18395,6 +18434,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -18794,6 +18834,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -18864,20 +18905,21 @@
     <rdg wit="#A #H">amlalavaṇatiktakaṣāyaḥ</rdg>
   </app>
   <app loc="392,415">
-    <lem>amvlakaṭutiktakaṣāyaḥ | m</lem>
+    <rdgGrp type="lemma" select="#K">
+      <lem>amvlakaṭutiktakaṣāyaḥ | m</lem>
+      <rdg type="minor" wit="#K">amvlakaṭutiktakaṣāyaḥ | <gap extent="2" reason="damaged" unit="char" quantity="1"/><lb n="6"/>m</rdg>
+    </rdgGrp>
     <rdgGrp select="#A #H">
       <rdg type="main">amlakaṭutiktakaṣāyaḥ</rdg>
       <rdg type="minor" wit="#H">amlakaṭu<lb n="5"/>tiktakaṣāyaḥ</rdg>
     </rdgGrp>
-    <rdg wit="#K">amvlakaṭutiktakaṣāyaḥ</rdg>
   </app>
   <app loc="415,419">
-    <lem>eṣāṃ</lem>
+    <lem wit="#K">eṣāṃ</lem>
     <rdgGrp select="#A #H">
       <rdg type="main">evam eṣāṃ</rdg>
       <rdg type="minor" wit="#H">evam eṣāñ</rdg>
     </rdgGrp>
-    <rdg wit="#K"><gap extent="2" reason="damaged" unit="char" quantity="1"/>m eṣāṃ</rdg>
   </app>
   <app loc="419,438">
     <lem wit="#K">cartuṇṇāmādāvamvlaḥ</lem>
@@ -19171,6 +19213,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -19194,7 +19237,7 @@
   <app loc="27,37">
     <lem wit="#K">prākāśyena</lem>
     <rdg wit="#A"/>
-    <rdg wit="#H">prakā<gap reason="omitted" extent="2" unit="char" quantity="1"/></rdg>
+    <rdg wit="#H">prakā</rdg>
   </app>
   <app loc="47,53">
     <lem wit="#K">amvlaḥ</lem>
@@ -19628,6 +19671,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -19643,23 +19687,36 @@
   </app>
   <app loc="19,24">
     <lem wit="#K #H">pibet</lem>
-    <rdg wit="#A">piben</rdg>
+    <rdg wit="#A">pibe</rdg>
   </app>
-  <app loc="24,47">
-    <rdgGrp type="lemma" select="#K">
-      <lem>kṣaudrānvitañ ca yat | ahni</lem>
-      <rdg type="minor" wit="#K">kṣaudrānvitañ ca yat | <caesura/> ahni</rdg>
+  <app loc="24,39">
+    <lem wit="#K">kṣaudrānvitañ ca</lem>
+    <rdg wit="#A">n madhusamā</rdg>
+    <rdg wit="#H">kṣaudrayutañ ca</rdg>
+  </app>
+  <app loc="39,47">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>yat | ahni</lem>
+      <rdg type="minor" wit="#K #H">yat | <caesura/> ahni</rdg>
     </rdgGrp>
-    <rdg wit="#A">madhusamāyutam |  ahni</rdg>
-    <rdg wit="#H">kṣaudrayutañ ca yat |  ahni</rdg>
+    <rdg wit="#A">yutam |  ahni</rdg>
   </app>
-  <app loc="47,52">
-    <lem wit="#K #H" subtype="prefix">varṣā</lem>
-    <rdg wit="#A">meghā</rdg>
+  <app loc="47,61">
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>varṣānilāviṣṭe</lem>
+      <rdg type="minor" wit="#H">varṣānilāvi<lb n="4"/>ṣṭe</rdg>
+    </rdgGrp>
+    <rdg wit="#A">meghānilāviṣṭe</rdg>
   </app>
-  <app loc="61,69">
-    <lem wit="#A" subtype="prefix">'tyartha</lem>
-    <rdg wit="#K #H">tyartha</rdg>
+  <app loc="61,83">
+    <rdgGrp type="lemma" select="#A">
+      <lem>'tyarthaśītāmbusaṃkule</lem>
+      <rdg type="minor" wit="#A">'tyarthaśītāmbusaṅkule</rdg>
+    </rdgGrp>
+    <rdgGrp select="#K #H">
+      <rdg type="main">tyarthaśītāmbusaṃkule</rdg>
+      <rdg type="minor" wit="#H">tyarthaśītāmbusaṅkule</rdg>
+    </rdgGrp>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.10" source="alignments/SS.6.64.10.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -19910,6 +19967,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -20165,6 +20223,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -20176,9 +20235,7 @@
   </app>
   <app loc="59,65">
     <lem wit="#K">seveta</lem>
-    <rdg wit="#H">
-      <gap reason="omitted" extent="11" unit="char" quantity="1"/>
-    </rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="65,70">
     <lem wit="#K">sarva</lem>
@@ -20212,6 +20269,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -20223,7 +20281,7 @@
   </app>
   <app loc="5,19">
     <lem wit="#K">kaṣāyamadhuram</lem>
-    <rdg wit="#H"><gap reason="omitted" extent="5" unit="char" quantity="1"/> madhuram</rdg>
+    <rdg wit="#H"> madhuram</rdg>
   </app>
   <app loc="28,38">
     <rdgGrp type="lemma" select="#H">
@@ -20433,24 +20491,16 @@
   </app>
   <app loc="42,64">
     <lem>tiktasarpiḥprayogair vā</lem>
-    <rdg wit="#A">nopeyāt tīkṣṇam amloṣṇaṃ kṣāraṃ svapnaṃ divātapam</rdg>
+    <rdg wit="#A">nopeyāt tīkṣṇam amloṣṇaṃ</rdg>
     <rdgGrp select="#K #H">
       <rdg type="main">tiktaḥ sarpiḥprayogair vā</rdg>
       <rdg type="minor" wit="#H">tiktaḥ sarppiḥprayogair vvā</rdg>
     </rdgGrp>
   </app>
-  <app loc="64,71">
-    <lem wit="#K #H">sirāṇāñ</lem>
-    <rdg wit="#A"/>
-  </app>
-  <app loc="71,75">
-    <lem wit="#K">cāpi</lem>
-    <rdg wit="#A"/>
-    <rdg wit="#H">ca vi</rdg>
-  </app>
-  <app loc="75,84">
-    <lem wit="#K #H">mokṣaṇaiḥ</lem>
-    <rdg wit="#A"/>
+  <app loc="64,84">
+    <lem wit="#K">sirāṇāñ cāpi mokṣaṇaiḥ</lem>
+    <rdg wit="#A">kṣāraṃ svapnaṃ divātapam</rdg>
+    <rdg wit="#H">sirāṇāñ ca vimokṣaṇaiḥ</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.18ab" source="alignments/SS.6.64.18ab.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -20542,6 +20592,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -20551,7 +20602,7 @@
     <lem> śaratsu pavanañ caiva kamalotpalaśāliṣu</lem>
     <rdg wit="#A">sa</rdg>
     <rdg wit="#K">śaratsu pavanañ caiva kamālotpalaśāliṣu</rdg>
-    <rdg wit="#H"><gap reason="omitted" extent="13" unit="char" quantity="1"/> śāliṣu</rdg>
+    <rdg wit="#H"> śāliṣu</rdg>
   </app>
   <app loc="37,47">
     <rdgGrp type="lemma" select="#K #H">
@@ -20663,6 +20714,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -20703,6 +20755,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -20719,13 +20772,11 @@
     <lem>māṣāñ śākāni ca</lem>
     <rdg wit="#A">māṣāñ chākāni ca</rdg>
     <rdg wit="#K">māṣāṃ śākāni ca</rdg>
-    <rdg wit="#H">māṣān śākāni ca</rdg>
+    <rdg wit="#H">māṣān śākā</rdg>
   </app>
   <app loc="27,36">
     <lem wit="#A #K">dadhīni ca</lem>
-    <rdg wit="#H">
-      <gap reason="omitted" extent="4" unit="char" quantity="1"/>
-    </rdg>
+    <rdg wit="#H">ni ca</rdg>
   </app>
   <app loc="37,52">
     <rdgGrp type="lemma" select="#A">
@@ -20743,7 +20794,7 @@
   </app>
   <app loc="69,77">
     <lem wit="#A #K">navān api</lem>
-    <rdg wit="#H"><gap reason="omitted" extent="1" unit="char" quantity="1"/>vān api</rdg>
+    <rdg wit="#H">vān api</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.29" source="alignments/SS.6.64.29.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -21501,6 +21552,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -21522,7 +21574,7 @@
   </app>
   <app loc="54,64">
     <lem wit="#A #K">sarvārthān</lem>
-    <rdg wit="#H">sa<gap reason="omitted" extent="1" unit="char" quantity="1"/>rthān</rdg>
+    <rdg wit="#H">sarthān</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.37ab" source="alignments/SS.6.64.37ab.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -21687,6 +21739,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -21694,7 +21747,7 @@
 <listApp>
   <app loc="5,21">
     <lem wit="#K">śuklāmbaradharaś</lem>
-    <rdg wit="#H"><gap reason="omitted" extent="6" unit="char" quantity="1"/>ś</rdg>
+    <rdg wit="#H">ś</rdg>
   </app>
   <app loc="21,40">
     <rdgGrp type="lemma" select="#K">
@@ -21763,12 +21816,9 @@
   </desc>
 </interp>
 <listApp>
-  <app loc="5,20">
-    <rdgGrp type="lemma" select="#H">
-      <lem>candrakarālokān</lem>
-      <rdg type="minor" wit="#H">ca<cb/>ndrakarālokān</rdg>
-    </rdgGrp>
-    <rdg wit="#K">candrakarālokāṃ</rdg>
+  <app loc="15,20">
+    <lem wit="#H" subtype="suffix">lokān</lem>
+    <rdg wit="#K">lokāṃ</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.39.add7" source="alignments/SS.6.64.39.add7.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -21790,6 +21840,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -21805,8 +21856,8 @@
   <app loc="41,71">
     <lem>yauvanotsavanirbhagnavanitāyām</lem>
     <rdg wit="#K">yauvanotsavanibhargnavanitāyām</rdg>
-    <rdg wit="#Hac"><gap reason="omitted" extent="4" unit="char" quantity="1"/> <gap reason="omitted" extent="1" unit="pāda" quantity="1"/> vaniyām</rdg>
-    <rdg wit="#Hpc"><gap reason="omitted" extent="4" unit="char" quantity="1"/> <gap reason="omitted" extent="1" unit="pāda" quantity="1"/> vanitāyām</rdg>
+    <rdg wit="#Hac"> vaniyām</rdg>
+    <rdg wit="#Hpc"> vanitāyām</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.39.add9" source="alignments/SS.6.64.39.add9.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -21977,6 +22028,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -21984,7 +22036,7 @@
 <listApp>
   <app loc="22,33">
     <lem wit="#K">gauḍikaiś ca</lem>
-    <rdg wit="#H">mmo<gap reason="omitted" extent="4" unit="char" quantity="1"/></rdg>
+    <rdg wit="#H">mmo</rdg>
   </app>
   <app loc="33,44">
     <lem>susaṃkṛtaiḥ</lem>
@@ -22271,6 +22323,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -22477,34 +22530,30 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
 </interp>
 <listApp>
-  <app loc="0,17">
-    <rdgGrp type="lemma" select="#K #Hpc">
-      <lem subtype="prefix"> pravṛddhagambhīra</lem>
-      <rdg type="minor" wit="#K">pravṛddhaga<unclear reason="damaged">mbhī</unclear>ra</rdg>
-      <rdg type="minor" wit="#Hpc">pravṛddhaga<cb/>mbhīra</rdg>
+  <app loc="0,23">
+    <rdgGrp type="lemma" select="#K">
+      <lem> pravṛddhagambhīraravair</lem>
+      <rdg type="minor" wit="#K">pravṛddhaga<unclear reason="damaged">mbhī</unclear>raravair</rdg>
     </rdgGrp>
-    <rdg wit="#Hac">pravṛddhagambhīrarambhī</rdg>
-  </app>
-  <app loc="17,23">
-    <lem wit="#K" subtype="suffix">ravair</lem>
-    <rdg wit="#Hac">raraver</rdg>
-    <rdg wit="#Hpc">raver</rdg>
+    <rdg wit="#Hac">pravṛddhagambhīrarambhīraraver</rdg>
+    <rdg wit="#Hpc">pravṛddhagambhīraraver</rdg>
   </app>
   <app loc="30,41">
     <lem wit="#K">ativinādite</lem>
     <rdg wit="#H">ativināditaiḥ</rdg>
   </app>
-  <app loc="52,59">
+  <app loc="42,83">
     <rdgGrp type="lemma" select="#K">
-      <lem subtype="infix">kandala</lem>
-      <rdg type="minor" wit="#K"><pc> </pc>kandala</rdg>
+      <lem>prodbhinnakandalaśyāmakadambakuṭajārjjune</lem>
+      <rdg type="minor" wit="#K">prodbhinna<pc> </pc>kandalaśyāmakadambakuṭa<unclear>jā</unclear>rjjune</rdg>
     </rdgGrp>
-    <rdg wit="#H">kandale</rdg>
+    <rdg wit="#H">prodbhinnakandale śyāmakadambakuṭajārjjune</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.46.add10" source="alignments/SS.6.64.46.add10.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -22555,18 +22604,22 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
 </interp>
 <listApp>
-  <app loc="19,29">
-    <lem wit="#Kpc #H" subtype="infix">nalinīvana</lem>
-    <rdg wit="#Kac">nalnīvana</rdg>
+  <app loc="0,36">
+    <rdgGrp type="lemma" select="#Kpc #H">
+      <lem> dvirephakṛtasaṅgītanalinīvanabhūṣite</lem>
+      <rdg type="minor" wit="#Kpc">dvirephakṛtasaṅgīta<lb n="4"/>nalinīvanabhūṣite</rdg>
+    </rdgGrp>
+    <rdg wit="#Kac">dvirephakṛtasaṅgītanalnīvanabhūṣite</rdg>
   </app>
-  <app loc="51,57">
-    <lem wit="#K" subtype="suffix">varair</lem>
-    <rdg wit="#H">vanair</rdg>
+  <app loc="37,57">
+    <lem wit="#K">śikhaṇḍināyakavarair</lem>
+    <rdg wit="#H">śikhaṇḍināyakavanair</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.46.add14" source="alignments/SS.6.64.46.add14.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -22738,6 +22791,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -22757,7 +22811,7 @@
   <app loc="12,18">
     <lem wit="#A #Kpc">yat kiñ</lem>
     <rdg wit="#Kac">ya kiñ</rdg>
-    <rdg wit="#H">ṇa<gap reason="omitted" extent="3" unit="char" quantity="1"/> kiñ</rdg>
+    <rdg wit="#H">ṇa kiñ</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.49" source="alignments/SS.6.64.49.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -22809,6 +22863,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -22827,11 +22882,12 @@
     <rdg wit="#H">śaktūṃś</rdg>
   </app>
   <app loc="42,61">
-    <rdgGrp type="lemma" select="#K #H">
+    <rdgGrp type="lemma" select="#K">
       <lem>yavaṣaṣṭikaśālīṃś ca</lem>
-      <rdg type="minor" wit="#K #H"><caesura/> yavaṣaṣṭikaśālīṃś ca</rdg>
+      <rdg type="minor" wit="#K"><caesura/> yavaṣaṣṭikaśālīṃś ca</rdg>
     </rdgGrp>
     <rdg wit="#A"> yavaṣaṣṭikagodhūmān śālīṃś cā</rdg>
+    <rdg wit="#H"> yavaṣaṣṭikaśālīṃś cas</rdg>
   </app>
   <app loc="61,76">
     <rdgGrp type="lemma" select="#K">
@@ -22839,7 +22895,7 @@
       <rdg type="minor" wit="#K">go<cb/>dhumān anavāṃs</rdg>
     </rdgGrp>
     <rdg wit="#A">py anavāṃs</rdg>
-    <rdg wit="#H"><gap reason="omitted" extent="6" unit="char" quantity="1"/>s</rdg>
+    <rdg wit="#H"/>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.51" source="alignments/SS.6.64.51.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -23175,6 +23231,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -23208,7 +23265,7 @@
     <lem>śītoṣṇasnigdharūkṣadravaśuṣkaikakālikadvikālikauṣadhayuktahīnamātradoṣapraśamanapravṛddhyarthān</lem>
     <rdg wit="#A">śītoṣṇasnigdharūkṣadravaśuṣkaikakālikadvikālikauṣadhayuktamātrāhīnadoṣapraśamanavṛttyarthāḥ</rdg>
     <rdg wit="#K">śītoṣṇasnigdharūkṣadravaśuṣkekakālikadvikālikauṣadhayuktahīnamātradoṣapraśamanapravṛdhyathāṃ</rdg>
-    <rdg wit="#H">śītoṣṇasnigdharūkṣadravaśuṣkekakālikauṣadhayuktahīnamātrādoṣa<gap reason="omitted" extent="2" unit="char" quantity="1"/>manapravṛddhyarthān</rdg>
+    <rdg wit="#H">śītoṣṇasnigdharūkṣadravaśuṣkekakālikauṣadhayuktahīnamātrādoṣamanapravṛddhyarthān</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.57" source="alignments/SS.6.64.57.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -23230,6 +23287,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -23334,6 +23392,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -23351,7 +23410,7 @@
   </app>
   <app loc="26,38">
     <lem wit="#A #K">mehāturān api</lem>
-    <rdg wit="#H"><gap reason="omitted" extent="10" unit="char" quantity="1"/>rān api</rdg>
+    <rdg wit="#H">rān api</rdg>
   </app>
   <app loc="39,60">
     <rdgGrp type="lemma" select="#A #K">
@@ -23473,6 +23532,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -23494,7 +23554,7 @@
     <lem>tathauṣadhasamāyutam</lem>
     <rdg wit="#A">tathauṣadhasamāyutaḥ</rdg>
     <rdg wit="#K">tathoṣadhasamāyutaṃ</rdg>
-    <rdg wit="#H">ya<gap reason="omitted" extent="8" unit="char" quantity="1"/></rdg>
+    <rdg wit="#H">ya</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.64" source="alignments/SS.6.64.64.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -23576,6 +23636,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -23617,9 +23678,11 @@
     <rdg wit="#H">subhaktaṃ</rdg>
   </app>
   <app loc="148,152">
-    <lem wit="#K">ceti</lem>
+    <rdgGrp type="lemma" select="#K #H">
+      <lem>ceti</lem>
+      <rdg type="minor" wit="#H"><unclear>ce</unclear>ti || <gap reason="omitted" extent="5" unit="char" quantity="1"/></rdg>
+    </rdgGrp>
     <rdg wit="#A">ceti daśauṣadhakālāḥ</rdg>
-    <rdg wit="#H"><unclear>ce</unclear>ti || <gap reason="omitted" extent="5" unit="char" quantity="1"/></rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.66" source="alignments/SS.6.64.66.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -23641,6 +23704,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -23656,14 +23720,15 @@
   </app>
   <app loc="12,16">
     <lem wit="#K">nāma</lem>
-    <rdg wit="#A">tu ya</rdg>
+    <rdg wit="#A">tu</rdg>
     <rdg wit="#H"/>
   </app>
   <app loc="16,19">
-    <lem>yat</lem>
-    <rdg wit="#A">t</rdg>
-    <rdg wit="#K">yaḥ</rdg>
-    <rdg wit="#H"><gap reason="omitted" extent="5" unit="char" quantity="1"/> yaḥ</rdg>
+    <lem wit="#A">yat</lem>
+    <rdgGrp select="#K #H">
+      <rdg type="main">yaḥ</rdg>
+      <rdg type="minor" wit="#H"><gap reason="omitted" extent="5" unit="char" quantity="1"/> yaḥ</rdg>
+    </rdgGrp>
   </app>
   <app loc="26,34">
     <lem wit="#K #H">auṣadham</lem>
@@ -23693,6 +23758,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -23747,6 +23813,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -23795,6 +23862,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -23832,13 +23900,13 @@
       <lem>prāgbhaktasevitam</lem>
       <rdg type="minor" wit="#A"><caesura/> prāgbhaktasevitam</rdg>
     </rdgGrp>
-    <rdg wit="#K"> prāg<unclear reason="damaged">bhaktasevi</unclear> <gap reason="damaged" quantity="1"/></rdg>
+    <rdg wit="#K"> prāg<unclear reason="damaged">bhaktasevi</unclear></rdg>
     <rdg wit="#H"> prāgbhaktasevinam</rdg>
   </app>
   <app loc="84,93">
     <lem wit="#H">adhobalam</lem>
     <rdg wit="#A">athauṣadham</rdg>
-    <rdg wit="#K"><gap reason="damaged" quantity="2"/>dhobalam</rdg>
+    <rdg wit="#K">dhobalam</rdg>
   </app>
   <app loc="93,101">
     <lem wit="#K #H">ādadhāti</lem>
@@ -24029,6 +24097,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -24044,7 +24113,7 @@
   <app loc="17,26">
     <lem wit="#K">yad antare</lem>
     <rdg wit="#A">yad antarā</rdg>
-    <rdg wit="#H">yad a<gap reason="omitted" extent="1" unit="char" quantity="1"/>re</rdg>
+    <rdg wit="#H">yad are</rdg>
   </app>
   <app loc="26,32">
     <lem wit="#A #K">pīyate</lem>
@@ -24200,6 +24269,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -24224,9 +24294,7 @@
   </app>
   <app loc="45,56">
     <lem wit="#A #K">yad aśanasya</lem>
-    <rdg wit="#H">
-      <gap reason="omitted" extent="10" unit="char" quantity="1"/>
-    </rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="56,65">
     <lem wit="#A #K">niṣevyate</lem>
@@ -24256,6 +24324,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -24263,7 +24332,7 @@
 <listApp>
   <app loc="23,33">
     <lem wit="#A">abhaktaṃ vā</lem>
-    <rdg wit="#K">abhakta<gap extent="14" reason="broken" unit="char" quantity="1"/></rdg>
+    <rdg wit="#K">abhakta</rdg>
     <rdg wit="#H">vā</rdg>
   </app>
   <app loc="33,44">
@@ -24418,6 +24487,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -24433,7 +24503,7 @@
       <rdg type="minor" wit="#K">piṇḍānta<cb/>raṃ</rdg>
     </rdgGrp>
     <rdg wit="#A">tu</rdg>
-    <rdg wit="#H">piṇḍā<gap reason="omitted" extent="11" unit="char" quantity="1"/></rdg>
+    <rdg wit="#H">piṇḍā</rdg>
   </app>
   <app loc="26,39">
     <lem wit="#K">yad upayujyate</lem>
@@ -24460,6 +24530,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -24467,7 +24538,7 @@
 <listApp>
   <app loc="0,12">
     <lem wit="#A #K"> grāsāntareṣu</lem>
-    <rdg wit="#H"><gap reason="omitted" extent="4" unit="char" quantity="1"/>ṣu</rdg>
+    <rdg wit="#H">ṣu</rdg>
   </app>
   <app loc="12,19">
     <lem wit="#K #H">visṛjed</lem>
@@ -24486,7 +24557,7 @@
       <lem>prathitadṛṣṭaguṇāṃś ca</lem>
       <rdg type="minor" wit="#K">prathitadṛ<unclear reason="damaged">ṣṭaguṇāṃś ca </unclear></rdg>
     </rdgGrp>
-    <rdg wit="#H"><gap reason="omitted" extent="3" unit="char" quantity="1"/>viṣṭaguṇāṃś ca</rdg>
+    <rdg wit="#H">viṣṭaguṇāṃś ca</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.83" source="alignments/SS.6.64.83.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -24553,6 +24624,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -24608,12 +24680,12 @@
   <app loc="151,158">
     <lem wit="#K">bhiṣajā</lem>
     <rdg wit="#A">bhiṣajāṃ</rdg>
-    <rdg wit="#H"/>
+    <rdg wit="#H">ṣaja</rdg>
   </app>
   <app loc="158,174">
     <lem wit="#K">sātmyaprakriyeti</lem>
     <rdg wit="#A">kālaḥ sa tu mataḥ</rdg>
-    <rdg wit="#H"><gap reason="omitted" extent="2" unit="char" quantity="1"/>ṣaja<gap reason="omitted" extent="3" unit="char" quantity="1"/><unclear>sātmra</unclear>kriyeti</rdg>
+    <rdg wit="#H"><unclear>sātmra</unclear>kriyeti</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.64.84.add" source="alignments/SS.6.64.84.add.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -24806,6 +24878,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -25099,6 +25172,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -25340,6 +25414,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -25358,7 +25433,7 @@
     <lem wit="#J #K #NE-JKT">vyatyāsenoktānāṃ</lem>
     <rdg wit="#A"/>
     <rdg wit="#LSPŚ">vityāsenoktānāṃ</rdg>
-    <rdg wit="#H"><gap extent="2" unit="char" quantity="1"/><gap extent="1" unit="char" quantity="1"/>nāṃ</rdg>
+    <rdg wit="#H">nāṃ</rdg>
   </app>
   <app loc="46,69">
     <lem wit="#J #K #NE-JKT">sannikṛṣṭaviprakṛṣṭānāṃ</lem>
@@ -25489,6 +25564,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -25546,7 +25622,7 @@
     <rdg wit="#J #NE-JKT"/>
     <rdg wit="#K">vā yo rthaḥ sa</rdg>
     <rdg wit="#LSPŚ">vā yo '</rdg>
-    <rdg wit="#H"><gap reason="blank" extent="12" unit="char" quantity="1"/><gap reason="blank" extent="2" unit="char" quantity="1"/>yo rthaḥ sa</rdg>
+    <rdg wit="#H">yo rthaḥ sa</rdg>
   </app>
   <app loc="72,81">
     <rdgGrp type="lemma" select="#A #K #H #NE-JKT">
@@ -25722,20 +25798,26 @@
     <rdg wit="#J">vêdāḥ</rdg>
     <rdg wit="#H">ve</rdg>
   </app>
-  <app loc="324,348">
-    <lem wit="#K">pūrvāparam upalakṣya vinda</lem>
+  <app loc="324,343">
+    <lem wit="#K">pūrvāparam upalakṣya</lem>
     <rdg wit="#A">vida vicāraṇe</rdg>
     <rdg wit="#J">tataḥ pūrvāparaś ca yogam upalabhya</rdg>
     <rdg wit="#LSPŚ">tatra pūrvāparayogam upalabhya</rdg>
-    <rdg wit="#H"><gap reason="blank" extent="8" unit="char" quantity="1"/> kṣya vinda</rdg>
+    <rdg wit="#H">kṣya</rdg>
     <rdg wit="#NE-JKT">pūrvāparayogam upalabhya vid vicāraṇe</rdg>
+  </app>
+  <app loc="343,348">
+    <lem wit="#K #H">vinda</lem>
+    <rdg wit="#A">vid</rdg>
+    <rdg wit="#J #LSPŚ"/>
+    <rdg wit="#NE-JKT">vid</rdg>
   </app>
   <app loc="348,355">
     <lem wit="#K #H">vida ity</lem>
-    <rdg wit="#A">vidḷ lābhe, ity</rdg>
+    <rdg wit="#A">ḷ lābhe, ity</rdg>
     <rdg wit="#J"/>
     <rdg wit="#LSPŚ">viṃdatīty</rdg>
-    <rdg wit="#NE-JKT">vid vindati ity</rdg>
+    <rdg wit="#NE-JKT">vindati ity</rdg>
   </app>
   <app loc="355,363">
     <lem wit="#A #K #LSPŚ #H #NE-JKT">etayoś ca</lem>
@@ -25748,19 +25830,13 @@
     </rdgGrp>
     <rdg wit="#J"/>
   </app>
-  <app loc="370,390">
-    <rdgGrp type="lemma" select="#K #H">
-      <lem>ekārthaḥ | paścāt padam</lem>
-      <rdg type="minor" wit="#K">ekārthaḥ | paścā<cb n="2"/>t padam</rdg>
-    </rdgGrp>
-    <rdg wit="#A">anekārthayoḥ prayogāt, tatra pūrvāparayogam upalabhya pratipattir</rdg>
-    <rdg wit="#J">vêda vida ity êtayôr dhātvôt pratipattir</rdg>
-    <rdg wit="#LSPŚ">ekārthayoḥ paścāt padaṃ</rdg>
-    <rdg wit="#NE-JKT">anekārthayoḥ prayogaḥ | paścāt pratipattir</rdg>
-  </app>
-  <app loc="390,397">
-    <lem wit="#A #J #LSPŚ #H #NE-JKT">bhavati</lem>
-    <rdg wit="#K">bhati</rdg>
+  <app loc="370,397">
+    <lem wit="#H">ekārthaḥ | paścāt padam bhavati</lem>
+    <rdg wit="#A">anekārthayoḥ prayogāt, tatra pūrvāparayogam upalabhya pratipattir bhavati</rdg>
+    <rdg wit="#J">vêda vida ity êtayôr dhātvôt pratipattir bhavati</rdg>
+    <rdg wit="#K">ekārthaḥ | paścāt padam bhati</rdg>
+    <rdg wit="#LSPŚ">ekārthayoḥ paścāt padaṃ bhavati</rdg>
+    <rdg wit="#NE-JKT">anekārthayoḥ prayogaḥ | paścāt pratipattir bhavati</rdg>
   </app>
   <app loc="427,430">
     <lem wit="#A #J #K #LSPŚ #H">eṣa</lem>
@@ -25909,6 +25985,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -25932,7 +26009,7 @@
     </rdgGrp>
     <rdg wit="#A">āgantukaṃ</rdg>
     <rdg wit="#LSPŚ">āgaṃtuṃ</rdg>
-    <rdg wit="#H">ā<gap extent="1" unit="char" quantity="1"/>ntū</rdg>
+    <rdg wit="#H">āntū</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.65.14" source="alignments/SS.6.65.14.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -26005,6 +26082,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -26348,6 +26426,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -26383,7 +26462,7 @@
       <rdg type="minor" wit="#K">asakṛd asakṛd uktaḥ</rdg>
     </rdgGrp>
     <rdg wit="#A">'sakṛduktaḥ</rdg>
-    <rdg wit="#H">asakṛd asakṛd a<gap reason="blank" extent="3" unit="char" quantity="1"/>ḥ</rdg>
+    <rdg wit="#H">asakṛd asakṛd aḥ</rdg>
   </app>
   <app loc="87,95">
     <rdgGrp type="lemma" select="#K #H">
@@ -26453,6 +26532,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -26468,7 +26548,7 @@
   </app>
   <app loc="41,52">
     <lem wit="#A #H">kecid ācāryā</lem>
-    <rdg wit="#K">ke</rdg>
+    <rdg wit="#K">ke<g ref="#new-old-gap-filler"/></rdg>
   </app>
   <app loc="52,59">
     <lem wit="#A #H">bruvate</lem>
@@ -26483,10 +26563,7 @@
   </app>
   <app loc="66,75">
     <lem wit="#A #H">pradhānaṃ</lem>
-    <rdg wit="#K">
-      <gap extent="12" reason="torn" unit="char" quantity="1"/>
-      <g ref="#new-old-gap-filler"/>
-    </rdg>
+    <rdg wit="#K"/>
   </app>
   <app loc="80,85">
     <lem wit="#H">rasāḥ</lem>
@@ -26753,6 +26830,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -26777,8 +26855,8 @@
   </app>
   <app loc="61,87">
     <lem wit="#A">prakaraṇānupūrvyābhihitāni</lem>
-    <rdg wit="#K"><gap extent="12" reason="damaged" unit="char" quantity="1"/>rvyābhihitāni</rdg>
-    <rdg wit="#H">prakaraṇāt tū pūrvvyā<gap reason="blank" extent="3" unit="char" quantity="1"/>ni</rdg>
+    <rdg wit="#K">rvyābhihitāni</rdg>
+    <rdg wit="#H">prakaraṇāt tū pūrvvyāni</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.65.30" source="alignments/SS.6.65.30.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -26938,6 +27016,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -26962,20 +27041,16 @@
       <rdg type="minor" wit="#H"><caesura/> yatheha</rdg>
     </rdgGrp>
     <rdg wit="#A"> yathā iha</rdg>
-    <rdg wit="#K">śayo |  <gap extent="3" reason="damaged" unit="char" quantity="1"/>ha</rdg>
+    <rdg wit="#K">śayo |  ha</rdg>
   </app>
   <app loc="39,52">
-    <rdgGrp type="lemma" select="#K #H">
-      <lem>pañcaviṃśakaḥ</lem>
-      <rdg type="minor" wit="#H">pañcaviṅśakaḥ</rdg>
-    </rdgGrp>
+    <lem wit="#K">pañcaviṃśakaḥ</lem>
     <rdg wit="#A">pañcaviṃśatikaḥ</rdg>
+    <rdg wit="#H">pañcaviṅśa</rdg>
   </app>
   <app loc="52,58">
     <lem wit="#A #K">puruṣo</lem>
-    <rdg wit="#H">
-      <gap reason="blank" extent="3" unit="char" quantity="1"/>
-    </rdg>
+    <rdg wit="#H">kaḥ</rdg>
   </app>
   <app loc="70,75">
     <lem wit="#K #H">tathā</lem>
@@ -27022,6 +27097,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -27039,7 +27115,7 @@
   <app loc="27,32">
     <lem wit="#K">sveṣu</lem>
     <rdg wit="#A"/>
-    <rdg wit="#H"><gap reason="blank" extent="2" unit="char" quantity="1"/>ṣu</rdg>
+    <rdg wit="#H">ṣu</rdg>
   </app>
   <app loc="32,40">
     <lem wit="#K #H">tantreṣu</lem>
@@ -27107,6 +27183,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -27157,6 +27234,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -27187,9 +27265,7 @@
   </app>
   <app loc="63,71">
     <lem wit="#A #K">gacchati</lem>
-    <rdg wit="#H">
-      <gap reason="blank" extent="12" unit="char" quantity="1"/>
-    </rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="71,76">
     <lem wit="#A #K">tathā</lem>
@@ -27197,7 +27273,7 @@
   </app>
   <app loc="76,95">
     <lem wit="#A #K">vātapittakaphaduṣṭo</lem>
-    <rdg wit="#H"><gap reason="blank" extent="12" unit="char" quantity="1"/><gap reason="blank" extent="3" unit="char" quantity="1"/>phaduṣṇo</rdg>
+    <rdg wit="#H">phaduṣṇo</rdg>
   </app>
   <app loc="95,100">
     <lem wit="#K #H">vraṇo</lem>
@@ -27329,6 +27405,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -27351,9 +27428,7 @@
       <lem>yathā</lem>
       <rdg type="minor" wit="#A"><caesura/> yathā</rdg>
     </rdgGrp>
-    <rdg wit="#H">
-      <gap reason="blank" extent="several" unit="char" quantity="1"/>
-    </rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="31,40">
     <lem wit="#K">rasodanaḥ</lem>
@@ -27403,6 +27478,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -27421,7 +27497,7 @@
       <lem>yathā</lem>
       <rdg type="minor" wit="#A #K"><caesura/> yathā</rdg>
     </rdgGrp>
-    <rdg wit="#H"/>
+    <rdg wit="#H"> ya</rdg>
   </app>
   <app loc="39,48">
     <lem wit="#A #K">abhihitam</lem>
@@ -27439,15 +27515,10 @@
     </rdgGrp>
     <rdg wit="#H"/>
   </app>
-  <app loc="73,82">
-    <lem wit="#K">annapānaṃ</lem>
-    <rdg wit="#A">cānnam upadiś</rdg>
+  <app loc="73,90">
+    <lem wit="#K">annapānaṃ bhakṣyaṃ</lem>
+    <rdg wit="#A">cānnam upadiśyate bhakṣyaṃ</rdg>
     <rdg wit="#H"/>
-  </app>
-  <app loc="82,90">
-    <lem wit="#K">bhakṣyaṃ</lem>
-    <rdg wit="#A">yate bhakṣyaṃ</rdg>
-    <rdg wit="#H"> ya</rdg>
   </app>
   <app loc="90,97">
     <rdgGrp type="lemma" select="#A #K">
@@ -27489,12 +27560,12 @@
       <lem>abhihitaṃ</lem>
       <rdg type="minor" wit="#A">abhihitam</rdg>
     </rdgGrp>
-    <rdg wit="#H"><gap reason="blank" extent="5" unit="char" quantity="1"/><gap reason="blank" extent="37" unit="char" quantity="1"/>hi</rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="154,162">
     <lem wit="#K">atrohyaṃ</lem>
     <rdg wit="#A">idam atrohyam</rdg>
-    <rdg wit="#H">taṃ | atrohyam</rdg>
+    <rdg wit="#H">hitaṃ | atrohyam</rdg>
   </app>
   <app loc="162,169">
     <lem wit="#K #H">bhavati</lem>
@@ -27541,16 +27612,18 @@
   </app>
   <app loc="273,277">
     <lem wit="#K">peye</lem>
-    <rdg wit="#A #H"/>
+    <rdg wit="#A"/>
+    <rdg wit="#H">d</rdg>
   </app>
   <app loc="277,283">
     <lem wit="#K">lehyaṃ</lem>
-    <rdg wit="#A #H"/>
+    <rdg wit="#A"/>
+    <rdg wit="#H">ye</rdg>
   </app>
   <app loc="283,298">
     <lem wit="#K">dravasādharmyāt</lem>
     <rdg wit="#A"/>
-    <rdg wit="#H">d yena sādharmmyāt</rdg>
+    <rdg wit="#H">na sādharmmyāt</rdg>
   </app>
   <app loc="310,318">
     <lem wit="#K">tv āhāraḥ</lem>
@@ -27582,9 +27655,7 @@
       <lem>ity</lem>
       <rdg type="minor" wit="#A">iti</rdg>
     </rdgGrp>
-    <rdg wit="#H">
-      <gap extent="5" unit="char" quantity="1"/>
-    </rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="371,374">
     <lem wit="#K">āha</lem>
@@ -27803,6 +27874,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -27824,9 +27896,7 @@
       <rdg type="minor" wit="#K">mahīpatiṃ |<cb/></rdg>
     </rdgGrp>
     <rdg wit="#A">mahaujasam</rdg>
-    <rdg wit="#H">
-      <gap reason="blank" extent="38" unit="char" quantity="1"/>
-    </rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="38,63">
     <rdgGrp type="lemma" select="#A #K">
@@ -27834,7 +27904,7 @@
       <rdg type="minor" wit="#A"><caesura/> chinnaśāstrārthasaṃdehaṃ</rdg>
       <rdg type="minor" wit="#K"><caesura/> cchinnaśāstrārthasandehaṃ</rdg>
     </rdgGrp>
-    <rdg wit="#H">annaśāstrārthasandehaṃ</rdg>
+    <rdg wit="#H"> annaśāstrārthasandehaṃ</rdg>
   </app>
   <app loc="63,84">
     <lem wit="#K">sūkṣmāgādhamivodadhiṃ</lem>
@@ -27905,6 +27975,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -27923,7 +27994,7 @@
       <lem>saṃśayacchinmahātapāḥ</lem>
       <rdg type="minor" wit="#K"><unclear reason="damaged">saṃśayacchinmahātapā</unclear>ḥ</rdg>
     </rdgGrp>
-    <rdg wit="#H">saṃśayacchinya<gap reason="blank" extent="1" unit="char" quantity="1"/></rdg>
+    <rdg wit="#H">saṃśayacchinya</rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.66.6" source="alignments/SS.6.66.6.xml"><interp type="normalization">
   <desc type="tagfilters">
@@ -27945,6 +28016,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -27997,14 +28069,8 @@
     <lem wit="#A #K">mūtram</lem>
     <rdg wit="#H"/>
   </app>
-  <app loc="72,75">
-    <lem wit="#A #K">eva</lem>
-    <rdg wit="#H">
-      <gap reason="blank" extent="4" unit="pāda" quantity="1"/>
-    </rdg>
-  </app>
-  <app loc="75,77">
-    <lem wit="#A #K">ca</lem>
+  <app loc="72,77">
+    <lem wit="#A #K">eva ca</lem>
     <rdg wit="#H"/>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.66.7" source="alignments/SS.6.66.7.xml"><interp type="normalization">
@@ -28027,6 +28093,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -28041,7 +28108,7 @@
   </app>
   <app loc="5,18">
     <lem wit="#A #K">sandhārayanty</lem>
-    <rdg wit="#H"><gap reason="blank" extent="4" unit="char" quantity="1"/>rayanty</rdg>
+    <rdg wit="#H">rayanty</rdg>
   </app>
   <app loc="52,63">
     <rdgGrp type="lemma" select="#K">
@@ -28197,6 +28264,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -28205,9 +28273,7 @@
   <app loc="8,14">
     <lem wit="#K">pṛthag</lem>
     <rdg wit="#A">pṛthak</rdg>
-    <rdg wit="#H">
-      <gap reason="blank" extent="28" unit="char" quantity="1"/>
-    </rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="14,19">
     <rdgGrp type="lemma" select="#A #K">
@@ -28258,6 +28324,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -28280,13 +28347,8 @@
   </app>
   <app loc="21,29">
     <lem wit="#K">sahaivaṃ</lem>
-    <rdg wit="#A">saha bhavan</rdg>
+    <rdg wit="#A">saha bhavanti</rdg>
     <rdg wit="#H"/>
-  </app>
-  <app loc="29,35">
-    <lem wit="#K">kṣayam</lem>
-    <rdg wit="#A">ti kṣayam</rdg>
-    <rdg wit="#H"><gap reason="blank" extent="11" unit="char" quantity="1"/>kṣayam</rdg>
   </app>
   <app loc="43,75">
     <rdgGrp type="lemma" select="#K">
@@ -28378,6 +28440,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -28396,7 +28459,7 @@
   </app>
   <app loc="63,74">
     <lem wit="#A #K">rasabhedair</lem>
-    <rdg wit="#H">rasa<gap reason="blank" extent="6" unit="char" quantity="1"/></rdg>
+    <rdg wit="#H">rasa</rdg>
   </app>
   <app loc="74,79">
     <lem wit="#K">yathe</lem>
@@ -28464,6 +28527,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -28507,7 +28571,7 @@
       <lem>prāṇyaṃ</lem>
       <rdg type="minor" wit="#K">prā<unclear>ṇya</unclear>ṃ</rdg>
     </rdgGrp>
-    <rdg wit="#H"><gap reason="blank" extent="9" unit="char" quantity="1"/>ṇāṃ</rdg>
+    <rdg wit="#H">ṇāṃ</rdg>
   </app>
   <app loc="69,75">
     <lem wit="#K">hanyan</lem>
@@ -28582,6 +28646,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -28590,8 +28655,11 @@
   <app loc="0,24">
     <lem> spaṣṭagūḍhārthagambhīram</lem>
     <rdg wit="#A">spaṣṭagūḍhārthavijñānam</rdg>
-    <rdg wit="#K"><sic>spagū</sic>ḍhārthagambhīram</rdg>
-    <rdg wit="#H">spa<gap reason="blank" extent="1" unit="char" quantity="1"/>gūḍhārthagambhīram</rdg>
+    <rdgGrp select="#K #H">
+      <rdg type="main">spagūḍhārthagambhīram</rdg>
+      <rdg type="minor" wit="#K"><sic>spagū</sic>ḍhārthagambhīram</rdg>
+      <rdg type="minor" wit="#H">spa<gap reason="blank" extent="1" unit="char" quantity="1"/>gūḍhārthagambhīram</rdg>
+    </rdgGrp>
   </app>
   <app loc="24,31">
     <rdgGrp type="lemma" select="#A">
@@ -28608,17 +28676,16 @@
     <rdg wit="#A">andacetasām</rdg>
   </app>
   <app loc="44,55">
-    <rdgGrp type="lemma" select="#K">
+    <rdgGrp type="lemma" select="#K #H">
       <lem>yathākramaṃ</lem>
-      <rdg type="minor" wit="#K"><caesura/> yathākramaṃ</rdg>
+      <rdg type="minor" wit="#K #H"><caesura/> yathākramaṃ</rdg>
     </rdgGrp>
     <rdg wit="#A"/>
-    <rdg wit="#H"> yathākramaṃ <gap reason="blank" extent="4" unit="char" quantity="1"/></rdg>
   </app>
   <app loc="55,67">
     <lem wit="#K">yathāpraśnaṃ</lem>
     <rdg wit="#A"/>
-    <rdg wit="#H">yathāprasnaṃ</rdg>
+    <rdg wit="#H"> yathāprasnaṃ</rdg>
   </app>
   <app loc="67,78">
     <lem wit="#K">yathātatvaṃ</lem>
@@ -28634,7 +28701,7 @@
       <lem>yathāpratijñañ ca</lem>
       <rdg type="minor" wit="#K"><caesura/> yathāpratijñañ ca</rdg>
     </rdgGrp>
-    <rdg wit="#A">yathāpraśnaṃ</rdg>
+    <rdg wit="#A">yathāpraś</rdg>
     <rdg wit="#H"> yathāpratijñāś ca</rdg>
   </app>
   <app loc="106,110">
@@ -28644,11 +28711,11 @@
         <unclear>mayā</unclear>
       </rdg>
     </rdgGrp>
-    <rdg wit="#A"/>
+    <rdg wit="#A">naṃ</rdg>
   </app>
   <app loc="110,118">
     <lem wit="#A #K">bhavatāṃ</lem>
-    <rdg wit="#H">bha<gap reason="blank" extent="7" unit="char" quantity="1"/></rdg>
+    <rdg wit="#H">bha</rdg>
   </app>
   <app loc="118,131">
     <rdgGrp type="lemma" select="#A #K">
@@ -28677,6 +28744,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -28741,6 +28809,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -28761,9 +28830,7 @@
   </app>
   <app loc="31,36">
     <lem wit="#K">eva ca</lem>
-    <rdg wit="#H">
-      <gap reason="blank" extent="32" unit="char" quantity="1"/>
-    </rdg>
+    <rdg wit="#H"/>
   </app>
   <app loc="79,101">
     <rdgGrp type="lemma" select="#K">
@@ -28837,6 +28904,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -28891,6 +28959,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -28935,6 +29004,7 @@
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">cb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">lb</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">pb</tag>
+    <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">gap</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">anchor</tag>
     <tag xmlns="http://www.tei-c.org/ns/1.0" subtype="ignore">milestone</tag>
   </desc>
@@ -28946,7 +29016,7 @@
   </app>
   <app loc="164,170">
     <lem>caigaṃ</lem>
-    <rdg wit="#K">cai<gap extent="1" reason="damage" unit="char" quantity="1"/>i<gap extent="10" reason="damage" unit="char" quantity="1"/><unclear>gaṃ </unclear></rdg>
+    <rdg wit="#K">caii<unclear>gaṃ </unclear></rdg>
   </app>
 </listApp></standOff><standOff type="apparatus" corresp="#SS.6.66.colophon3" source="alignments/SS.6.66.colophon3.xml"><interp type="normalization">
   <desc type="tagfilters">
