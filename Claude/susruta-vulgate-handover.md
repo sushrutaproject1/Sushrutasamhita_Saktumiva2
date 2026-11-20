@@ -1,4 +1,4 @@
-# Suśruta vulgate → eTexts: handover (updated 2026-11-19: three steps done and merged; vulgate files corrected; manuscript transcriptions spaced and retagged, step 5)
+# Suśruta vulgate → eTexts: handover (updated 2026-11-19: three steps done and merged; vulgate files corrected, not yet committed)
 
 (Copy of the note kept in the Claude Project "eText processing", saved here 2026-11-19 so that any session that can read this folder can read it. The Project copy is the one that gets updated.)
 
@@ -7,7 +7,6 @@ Three-step plan agreed with Dominik, all complete:
 2. Merge vulgate word spaces, verse division, `<pb>` page breaks and readings into `eTexts/eSushruta/susrutasamhita-full.xml` (commentary untouched) — DONE; PR https://github.com/sushrutaproject/eTexts/pull/10 merged 2026-11-19
 3. Show page numbers in eTexts search results — DONE; PR https://github.com/sushrutaproject/eTexts/pull/11 merged 2026-11-19
 4. (added) Correct slips, gaps and repeats in the vulgate files from eTexts — DONE 2026-11-19; files written to Dominik's disk, to be committed and pushed by him.
-5. (added) Word spacing + prose tagging of the 32 manuscript transcription files — DONE 2026-11-19; files written to Dominik's disk, to be committed and pushed by him. See "Step 5" below.
 Later, separately: word spacing of Ḍalhaṇa's commentary in the eTexts file.
 
 ## Files
@@ -18,16 +17,6 @@ Later, separately: word spacing of Ḍalhaṇa's commentary in the eTexts file.
 - Step 2 report, lists and scripts: `Sushrutasamhita_Saktumiva2/Claude/vulgate-merge-2026-11/` (README.md, differences.tsv, etexts-spaces-inside-vulgate-words.tsv, numbering-mismatches.tsv, page-breaks-to-check.tsv, scripts/).
 - Step 4 report, lists and scripts: `Sushrutasamhita_Saktumiva2/Claude/vulgate-corrections-2026-11/` (README.md, corrections.tsv, left-unchanged.tsv, scripts/).
 - Claude has no shell on Dominik's machine: files are read and written through the desktop app, and PRs are pushed from a clone in Claude's workspace; Dominik pulls afterwards.
-
-## Step 5: manuscript transcriptions spaced and retagged (2026-11-19)
-- Files: the 32 witness files in the eleven `0*` folders (kl_699, kl_699b, nak_1-1079, nak_5-333, bl_iolr_1842, j_20060, lsps_1842, pul_7082). Not touched: vulgate files, `provisional-edition_*`, `alignments/` (the last two are now out of step).
-- Report, lists, scripts and agents' answers: `Sushrutasamhita_Saktumiva2/Claude/witness-spacing-2026-11/` (README.md, spaces-changed.tsv, prose-and-kept-units.tsv, scripts/).
-- Dominik's decisions: the cheaper route B (spacing copied from the spaced vulgate, agents only on what differs); verse/prose by metre alone, not by the vulgate's tags, because the manuscripts differ from the vulgate.
-- Result: 7,164 spaces added, 1,028 misplaced spaces removed, 2,879 units retagged to `<p>`; one `<change>` per file; no letter changed (letters, xml:ids, `<pb>`, comments, header, other tags checked identical; well-formed).
-- Method: (1) letter alignment with the vulgate unit of the same xml:id plus exact 10/12-letter windows anywhere in the vulgate: 4,772 added, 637 removed; (2) a spacing model trained on the vulgate marked likely missing junctions in the differing stretches; the 9,327 different tokens concerned were read by 27 Opus agents, 2,246 spaces added; (3) 1,384 doubtful spaces judged by 4 Opus agents, 391 removed, 146 added by moving. About 3.4 M tokens. An answer for a token was applied to all its occurrences.
-- The files were already largely spaced; the sed script's marks were in most larger files. Vulgate `vā 'pi`-type fusion marks are not copied as spaces; elided a is spaced as the transcribers do (`so pi`).
-- Retagging is more cautious than for the vulgate: kept as verse and listed are units with `<caesura/>` that do not scan (126), half-verse ids ab/cd/ef of half-verse length (142), mixed (298), doubtful with gap or damage (63), `<l>` with attributes (29).
-- Open: missing spaces the model did not mark remain in text that differs from the vulgate; no avagraha or consistency pass; `teṣāṃ` before a vowel (42, sed rule 241) left, as a scribe may write it so; sample reading only.
 
 ## Still open
 - 14 eTexts slips where the vulgate is right, not yet corrected in eTexts (list in the step 4 README, group B): e.g. `ādirot` for `ādiśet` SS.2.6.23, `nghanti` for `ghnanti` SS.2.13.20, `pañcarviśatir` SS.4.29.12, `niṛuter` SS.6.60.25.
