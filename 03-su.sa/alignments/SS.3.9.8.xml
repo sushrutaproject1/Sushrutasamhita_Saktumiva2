@@ -24,20 +24,6 @@
 </witness>
 </listWit>
 </witness>
-<witness xml:id="L" source="pul_7082_sarirasthana.xml">
-<abbr>L</abbr>
-<expan>MS Lahore PUL Woolner 7082</expan>
-<listWit>
-<witness xml:id="Lac" n="ac">
-<abbr>Lac</abbr>
-<expan>MS Lahore PUL Woolner 7082 [ante correctionem]</expan>
-</witness>
-<witness xml:id="Lpc" n="pc">
-<abbr>Lpc</abbr>
-<expan>MS Lahore PUL Woolner 7082 [post correctionem]</expan>
-</witness>
-</listWit>
-</witness>
 <witness xml:id="H" source="nak_5-333_sarirasthana.xml">
 <abbr>H</abbr>
 <expan>MS Kathmandu NAK 5-333: Śārīrasthāna</expan>
@@ -49,6 +35,20 @@
 <witness xml:id="Hpc" n="pc">
 <abbr>Hpc</abbr>
 <expan>MS Kathmandu NAK 5-333: Śārīrasthāna [post correctionem]</expan>
+</witness>
+</listWit>
+</witness>
+<witness xml:id="L" source="pul_7082_sarirasthana.xml">
+<abbr>L</abbr>
+<expan>MS Lahore PUL Woolner 7082</expan>
+<listWit>
+<witness xml:id="Lac" n="ac">
+<abbr>Lac</abbr>
+<expan>MS Lahore PUL Woolner 7082 [ante correctionem]</expan>
+</witness>
+<witness xml:id="Lpc" n="pc">
+<abbr>Lpc</abbr>
+<expan>MS Lahore PUL Woolner 7082 [post correctionem]</expan>
 </witness>
 </listWit>
 </witness>
@@ -100,8 +100,7 @@
 <ab>visarga āḥ variants</ab>
 <ab>other visarga variants</ab>
 <ab>superfluous avagrahas</ab>
-<ab>double avagrahas</ab>
-<ab>avagrahas to short a</ab>
+<ab>remove avagrahas</ab>
 <ab>internal visarga variants</ab>
 <ab>final au/āv</ab>
 <ab>final su</ab>
@@ -119,10 +118,6 @@
 <ab>remove spaces</ab>
         </normalization>
         <ab type="tagfilters">
-<tag subtype="ignore">pc</tag>
-<tag subtype="ignore">abbr</tag>
-<tag subtype="ignore">corr</tag>
-<tag subtype="ignore">ex</tag>
 <tag subtype="ignore">head</tag>
 <tag subtype="ignore">label</tag>
 <tag subtype="ignore">note</tag>
@@ -133,11 +128,18 @@
 <tag subtype="ignore">supplied</tag>
 <tag subtype="ignore">surplus</tag>
 <tag subtype="ignore">trailer</tag>
+<tag subtype="ignore">caesura</tag>
+<tag subtype="ignore">lb</tag>
+<tag subtype="ignore">cb</tag>
+<tag subtype="ignore">pb</tag>
+<tag subtype="ignore">anchor</tag>
+<tag subtype="ignore">milestone</tag>
+<tag subtype="ignore">title</tag>
         </ab>
       </editorialDecl>
     </encodingDesc>
     <xenoData>
-      <stemma format="nexml" id="stemma0"><nex:nexml xmlns:nex="http://www.nexml.org/2009" version="0.9"><nex:otus id="otus1"><nex:otu id="otu0" label="Hac"/><nex:otu id="otu1" label="Hpc"/><nex:otu id="otu2" label="A"/><nex:otu id="otu3" label="NE"/></nex:otus><nex:trees otus="otus1" id="trees1"><nex:tree id="guidetree" label="guidetree" xsi:type="nex:FloatTree" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><nex:node id="a8baca20-d637-4e21-b605-c7bd32611794" root="true"/><nex:node id="c7d3b70c-1a04-4269-8e77-569be49ea809"/><nex:node id="a8e01ff8-0290-481a-a2ed-bc99e843cde1" label="Hac" otu="otu2"/><nex:node id="776e8a34-4507-4b3d-a86e-03b0f82fb62c" label="Hpc" otu="otu3"/><nex:node id="92b7ae15-abe3-4fe8-ab4d-28a9322c4a99"/><nex:node id="ad04a942-cba5-46fb-af67-b352d282a092" label="A" otu="otu5"/><nex:node id="2e395e0c-2328-4886-a426-741dbf55ea31" label="NE" otu="otu6"/><nex:edge source="a8baca20-d637-4e21-b605-c7bd32611794" target="c7d3b70c-1a04-4269-8e77-569be49ea809" id="edge0" length="0.021796612958764505"/><nex:edge source="a8baca20-d637-4e21-b605-c7bd32611794" target="92b7ae15-abe3-4fe8-ab4d-28a9322c4a99" id="edge1" length="0.021796612958764505"/><nex:edge source="c7d3b70c-1a04-4269-8e77-569be49ea809" target="a8e01ff8-0290-481a-a2ed-bc99e843cde1" id="edge2" length="0.47441456737696375"/><nex:edge source="c7d3b70c-1a04-4269-8e77-569be49ea809" target="776e8a34-4507-4b3d-a86e-03b0f82fb62c" id="edge3" length="0.4470617045498917"/><nex:edge source="92b7ae15-abe3-4fe8-ab4d-28a9322c4a99" target="ad04a942-cba5-46fb-af67-b352d282a092" id="edge4" length="0.4886865913160487"/><nex:edge source="92b7ae15-abe3-4fe8-ab4d-28a9322c4a99" target="2e395e0c-2328-4886-a426-741dbf55ea31" id="edge5" length="0.3039639511853684"/></nex:tree></nex:trees></nex:nexml></stemma>
+      <stemma format="nexml" id="stemma0"><nex:nexml xmlns:nex="http://www.nexml.org/2009" version="0.9"><nex:otus id="otus1"><nex:otu id="otu0" label="Hac"/><nex:otu id="otu1" label="Hpc"/><nex:otu id="otu2" label="A"/><nex:otu id="otu3" label="NE"/></nex:otus><nex:trees otus="otus1" id="trees1"><nex:tree id="guidetree" label="guidetree" xsi:type="nex:FloatTree" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><nex:node id="dd68f70f-7d7a-44d5-90d2-47304b498104" root="true"/><nex:node id="2d55e35b-6b89-48a8-bc24-a811da7a8275"/><nex:node id="4596aee7-8af9-4d03-aaf5-3cb8e1b45bfe" label="Hac" otu="otu2"/><nex:node id="50d549d8-86cd-4674-ae4b-6cdb6c624a87" label="Hpc" otu="otu3"/><nex:node id="7390b608-7daf-4643-9834-e17b321b4515"/><nex:node id="127225ed-294c-4a73-86d3-a64db36e9954" label="A" otu="otu5"/><nex:node id="68334194-709a-4d4d-9390-7334e38a38ce" label="NE" otu="otu6"/><nex:edge source="dd68f70f-7d7a-44d5-90d2-47304b498104" target="2d55e35b-6b89-48a8-bc24-a811da7a8275" id="edge0" length="0.021796612958764505"/><nex:edge source="dd68f70f-7d7a-44d5-90d2-47304b498104" target="7390b608-7daf-4643-9834-e17b321b4515" id="edge1" length="0.021796612958764505"/><nex:edge source="2d55e35b-6b89-48a8-bc24-a811da7a8275" target="4596aee7-8af9-4d03-aaf5-3cb8e1b45bfe" id="edge2" length="0.47441456737696375"/><nex:edge source="2d55e35b-6b89-48a8-bc24-a811da7a8275" target="50d549d8-86cd-4674-ae4b-6cdb6c624a87" id="edge3" length="0.4470617045498917"/><nex:edge source="7390b608-7daf-4643-9834-e17b321b4515" target="127225ed-294c-4a73-86d3-a64db36e9954" id="edge4" length="0.4886865913160487"/><nex:edge source="7390b608-7daf-4643-9834-e17b321b4515" target="68334194-709a-4d4d-9390-7334e38a38ce" id="edge5" length="0.3039639511853684"/></nex:tree></nex:trees></nex:nexml></stemma>
     </xenoData>
   </teiHeader>
 <TEI n="Hac"><text><cl><w n="0" lemma="bha"> bha</w><w n="1">va</w><w n="2" lemma="ti">ti </w></cl><cl><w n="3">cā</w><w n="4">t</w><w n="5" lemma="ra">ra </w></cl><cl><w n="6">a</w><w n="7">dho</w><w n="8">ga</w><w n="9"/><w n="10" lemma="tāḥ">tās </w><w n="11" lemma="tu">tu </w></cl><cl><w n="12">ku</w><w n="13">r</w><w n="14" lemma="vaṃ">vvan</w><w n="15" lemma="ti">ti </w></cl><cl><w n="16">ka</w><w n="17">r</w><w n="18" lemma="mā">mmā</w><w n="19" lemma="ṇi">ṇy </w></cl><cl><w n="20">e</w><w n="21">tā</w><w n="22" lemma="ni">ni </w></cl><cl><w n="23">sa</w><w n="24">r</w><w n="25" lemma="va">vva</w><w n="26" lemma="śaḥ">śaḥ | </w></cl><cl><w n="27">ti</w><w n="28">r</w><w n="29">ya</w><w n="30">g</w><w n="31" lemma="gāḥ">gās </w></cl><cl><w n="32">t</w><w n="33" lemma="ve">v e</w><w n="34" lemma="va">va </w></cl><cl><w n="35">va</w><w n="36">k</w><w n="37">ṣ</w><w n="38">yā</w><w n="39" lemma="mi">mi </w></cl><cl><w n="40">ka</w><w n="41">r</w><w n="42" lemma="ma">mma </w></cl><cl><w n="43">cā</w><w n="44" lemma="sāṃ">sāṃ </w></cl><cl><w n="45">ya</w><w n="46">thā</w><w n="47">ta</w><w n="48" lemma="thaṃ">thaṃ || </w></cl></text></TEI><TEI n="Hpc"><text><cl><w n="0" lemma="bha"> bha</w><w n="1">va</w><w n="2" lemma="ti">ti </w></cl><cl><w n="3">cā</w><w n="4">t</w><w n="5" lemma="ra">ra </w></cl><cl><w n="6">a</w><w n="7">dho</w><w n="8">ga</w><w n="9">tā</w><w n="10" lemma="māḥ">mās </w><w n="11" lemma="tu">tu </w></cl><cl><w n="12">ku</w><w n="13">r</w><w n="14" lemma="vaṃ">vvan</w><w n="15" lemma="ti">ti </w></cl><cl><w n="16">ka</w><w n="17">r</w><w n="18" lemma="mā">mmā</w><w n="19" lemma="ṇi">ṇy </w></cl><cl><w n="20">e</w><w n="21">tā</w><w n="22" lemma="ni">ni </w></cl><cl><w n="23">sa</w><w n="24">r</w><w n="25" lemma="va">vva</w><w n="26" lemma="śaḥ">śaḥ | </w></cl><cl><w n="27">ti</w><w n="28">r</w><w n="29">ya</w><w n="30">g</w><w n="31" lemma="gāḥ">gās </w></cl><cl><w n="32">t</w><w n="33" lemma="ve">v e</w><w n="34" lemma="va">va </w></cl><cl><w n="35">va</w><w n="36">k</w><w n="37">ṣ</w><w n="38">yā</w><w n="39" lemma="mi">mi </w></cl><cl><w n="40">ka</w><w n="41">r</w><w n="42" lemma="ma">mma </w></cl><cl><w n="43">cā</w><w n="44" lemma="sāṃ">sāṃ </w></cl><cl><w n="45">ya</w><w n="46">thā</w><w n="47">ta</w><w n="48" lemma="thaṃ">thaṃ || </w></cl></text></TEI><TEI n="A"><text><cl><w n="0" lemma="bha"> bha</w><w n="1">va</w><w n="2" lemma="ti">ti </w></cl><cl><w n="3">cā</w><w n="4">t</w><w n="5" lemma="ra">ra -- </w></cl><cl><w n="6">a</w><w n="7">dho</w><w n="8">ga</w><w n="9"/><w n="10" lemma="māḥ">mās </w><w n="11" lemma="tu">tu </w></cl><cl><w n="12">ku</w><w n="13">r</w><w n="14" lemma="vaṃ">van</w><w n="15" lemma="ti">ti </w></cl><cl><w n="16">ka</w><w n="17">r</w><w n="18">mā</w><w n="19" lemma="ṇi">ṇy </w></cl><cl><w n="20">e</w><w n="21">tā</w><w n="22" lemma="ni">ni </w></cl><cl><w n="23">sa</w><w n="24">r</w><w n="25">va</w><w n="26" lemma="śaḥ">śaḥ </w></cl><cl><w n="27">ti</w><w n="28">r</w><w n="29">ya</w><w n="30">g</w><w n="31" lemma="gāḥ">gāḥ </w></cl><cl><w n="32">saṃ</w><w n="33">p</w><w n="34">ra</w></cl><cl><w n="35">va</w><w n="36">k</w><w n="37">ṣ</w><w n="38">yā</w><w n="39" lemma="mi">mi </w></cl><cl><w n="40">ka</w><w n="41">r</w><w n="42" lemma="ma">ma </w></cl><cl><w n="43">cā</w><w n="44" lemma="sāṃ">sāṃ </w></cl><cl><w n="45">ya</w><w n="46">thā</w><w n="47">ya</w><w n="48" lemma="thaṃ">tham ||8|| </w></cl></text></TEI><TEI n="NE"><text><cl><w n="0" lemma="bha"> bha</w><w n="1">va</w><w n="2" lemma="ti">ti </w></cl><cl><w n="3">cā</w><w n="4">t</w><w n="5" lemma="ra">ra || </w></cl><cl><w n="6">a</w><w n="7">dho</w><w n="8">ga</w><w n="9"/><w n="10" lemma="māḥ">mās </w><w n="11" lemma="tu">tu </w></cl><cl><w n="12">ku</w><w n="13">r</w><w n="14" lemma="vaṃ">vvan</w><w n="15" lemma="ti">ti </w></cl><cl><w n="16">ka</w><w n="17">r</w><w n="18" lemma="mā">mmā</w><w n="19" lemma="ṇi">ṇy </w></cl><cl><w n="20">e</w><w n="21">tā</w><w n="22" lemma="ni">ni </w></cl><cl><w n="23">sa</w><w n="24">r</w><w n="25" lemma="va">vva</w><w n="26" lemma="śaḥ">śaḥ | </w></cl><cl><w n="27">ti</w><w n="28">r</w><w n="29">ya</w><w n="30">g</w><w n="31" lemma="gāḥ">gās </w></cl><cl><w n="32">t</w><w n="33" lemma="ve">v e</w><w n="34" lemma="va">va </w></cl><cl><w n="35">va</w><w n="36">k</w><w n="37">ṣ</w><w n="38">yā</w><w n="39" lemma="mi">mi </w></cl><cl><w n="40">ka</w><w n="41">r</w><w n="42" lemma="ma">mma </w></cl><cl><w n="43">cā</w><w n="44" lemma="sāṃ">sāṃ </w></cl><cl><w n="45">ya</w><w n="46">thā</w><w n="47">ta</w><w n="48" lemma="thaṃ">thaṃ || </w></cl></text></TEI></teiCorpus>
